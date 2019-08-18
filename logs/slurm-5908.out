@@ -1,0 +1,10 @@
+/home/amahon/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+{'colour_mode': 'rgb', 'data_path': 'h5images/resampled_16x16_directions_32_histnorm', 'epochs': 300, 'momentum': 0.9, 'lr_start': 0.1, 'lr_ep_step': 20, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 128, 'directions': 32, 'resampled_size': (16, 16), 'cuda': False}
+Data setup...
+Loading providers
+slurmstepd: error: *** JOB 5908 ON n1594 CANCELLED AT 2019-06-28T19:01:45 ***

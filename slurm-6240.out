@@ -1,0 +1,814 @@
+/home/amahon/research/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+Using TensorFlow backend.
+/home/amahon/research/delve/delve/metrics.py:39: RuntimeWarning: invalid value encountered in true_divide
+  var_exp = [(i / tot) for i in eig_vals]
+/home/amahon/research/delve/delve/metrics.py:41: RuntimeWarning: invalid value encountered in greater
+  nr_eig_vals = np.argmax(cum_var_exp > threshold)
+/home/amahon/research/delve/delve/metrics.py:39: RuntimeWarning: invalid value encountered in true_divide
+  var_exp = [(i / tot) for i in eig_vals]
+/home/amahon/research/delve/delve/metrics.py:41: RuntimeWarning: invalid value encountered in greater
+  nr_eig_vals = np.argmax(cum_var_exp > threshold)
+/home/amahon/research/delve/delve/metrics.py:39: RuntimeWarning: invalid value encountered in true_divide
+  var_exp = [(i / tot) for i in eig_vals]
+/home/amahon/research/delve/delve/metrics.py:41: RuntimeWarning: invalid value encountered in greater
+  nr_eig_vals = np.argmax(cum_var_exp > threshold)
+'dim_0_dir_29_red', 'dim_0_dir_3_red', 'dim_0_dir_30_red', 'dim_0_dir_31_red', 'dim_0_dir_4_red', 'dim_0_dir_5_red', 'dim_0_dir_6_red', 'dim_0_dir_7_red', 'dim_0_dir_8_red', 'dim_0_dir_9_red', 'dim_0_dir_0_green', 'dim_0_dir_1_green', 'dim_0_dir_10_green', 'dim_0_dir_11_green', 'dim_0_dir_12_green', 'dim_0_dir_13_green', 'dim_0_dir_14_green', 'dim_0_dir_15_green', 'dim_0_dir_16_green', 'dim_0_dir_17_green', 'dim_0_dir_18_green', 'dim_0_dir_19_green', 'dim_0_dir_2_green', 'dim_0_dir_20_green', 'dim_0_dir_21_green', 'dim_0_dir_22_green', 'dim_0_dir_23_green', 'dim_0_dir_24_green', 'dim_0_dir_25_green', 'dim_0_dir_26_green', 'dim_0_dir_27_green', 'dim_0_dir_28_green', 'dim_0_dir_29_green', 'dim_0_dir_3_green', 'dim_0_dir_30_green', 'dim_0_dir_31_green', 'dim_0_dir_4_green', 'dim_0_dir_5_green', 'dim_0_dir_6_green', 'dim_0_dir_7_green', 'dim_0_dir_8_green', 'dim_0_dir_9_green', 'dim_0_dir_0_blue', 'dim_0_dir_1_blue', 'dim_0_dir_10_blue', 'dim_0_dir_11_blue', 'dim_0_dir_12_blue', 'dim_0_dir_13_blue', 'dim_0_dir_14_blue', 'dim_0_dir_15_blue', 'dim_0_dir_16_blue', 'dim_0_dir_17_blue', 'dim_0_dir_18_blue', 'dim_0_dir_19_blue', 'dim_0_dir_2_blue', 'dim_0_dir_20_blue', 'dim_0_dir_21_blue', 'dim_0_dir_22_blue', 'dim_0_dir_23_blue', 'dim_0_dir_24_blue', 'dim_0_dir_25_blue', 'dim_0_dir_26_blue', 'dim_0_dir_27_blue', 'dim_0_dir_28_blue', 'dim_0_dir_29_blue', 'dim_0_dir_3_blue', 'dim_0_dir_30_blue', 'dim_0_dir_31_blue', 'dim_0_dir_4_blue', 'dim_0_dir_5_blue', 'dim_0_dir_6_blue', 'dim_0_dir_7_blue', 'dim_0_dir_8_blue', 'dim_0_dir_9_blue']
+Creating trainer
+Running training
+                                                  Epoch 1/100 Batch 1/9 (11.11 %)                                                  Epoch 1/100 Batch 2/9 (22.22 %)                                                  Epoch 1/100 Batch 3/9 (33.33 %)                                                  Epoch 1/100 Batch 4/9 (44.44 %)                                                  Epoch 1/100 Batch 5/9 (55.56 %)                                                  Epoch 1/100 Batch 6/9 (66.67 %)                                                  Epoch 1/100 Batch 7/9 (77.78 %)                                                  Epoch 1/100 Batch 8/9 (88.89 %)                                                  Epoch 1/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 0.00 %, Loss: 34.5396
+                                                  Epoch 2/100 Batch 1/9 (11.11 %)                                                  Epoch 2/100 Batch 2/9 (22.22 %)                                                  Epoch 2/100 Batch 3/9 (33.33 %)                                                  Epoch 2/100 Batch 4/9 (44.44 %)                                                  Epoch 2/100 Batch 5/9 (55.56 %)                                                  Epoch 2/100 Batch 6/9 (66.67 %)                                                  Epoch 2/100 Batch 7/9 (77.78 %)                                                  Epoch 2/100 Batch 8/9 (88.89 %)                                                  Epoch 2/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 0.00 %, Loss: 34.5396
+                                                  Epoch 3/100 Batch 1/9 (11.11 %)                                                  Epoch 3/100 Batch 2/9 (22.22 %)                                                  Epoch 3/100 Batch 3/9 (33.33 %)                                                  Epoch 3/100 Batch 4/9 (44.44 %)                                                  Epoch 3/100 Batch 5/9 (55.56 %)                                                  Epoch 3/100 Batch 6/9 (66.67 %)                                                  Epoch 3/100 Batch 7/9 (77.78 %)                                                  Epoch 3/100 Batch 8/9 (88.89 %)                                                  Epoch 3/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 0.00 %, Loss: 34.5396
+                                                  Epoch 4/100 Batch 1/9 (11.11 %)                                                  Epoch 4/100 Batch 2/9 (22.22 %)                                                  Epoch 4/100 Batch 3/9 (33.33 %)                                                  Epoch 4/100 Batch 4/9 (44.44 %)                                                  Epoch 4/100 Batch 5/9 (55.56 %)                                                  Epoch 4/100 Batch 6/9 (66.67 %)                                                  Epoch 4/100 Batch 7/9 (77.78 %)                                                  Epoch 4/100 Batch 8/9 (88.89 %)                                                  Epoch 4/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 0.00025
+                                                  Epoch 5/100 Batch 1/9 (11.11 %)                                                  Epoch 5/100 Batch 2/9 (22.22 %)                                                  Epoch 5/100 Batch 3/9 (33.33 %)                                                  Epoch 5/100 Batch 4/9 (44.44 %)                                                  Epoch 5/100 Batch 5/9 (55.56 %)                                                  Epoch 5/100 Batch 6/9 (66.67 %)                                                  Epoch 5/100 Batch 7/9 (77.78 %)                                                  Epoch 5/100 Batch 8/9 (88.89 %)                                                  Epoch 5/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 6/100 Batch 1/9 (11.11 %)                                                  Epoch 6/100 Batch 2/9 (22.22 %)                                                  Epoch 6/100 Batch 3/9 (33.33 %)                                                  Epoch 6/100 Batch 4/9 (44.44 %)                                                  Epoch 6/100 Batch 5/9 (55.56 %)                                                  Epoch 6/100 Batch 6/9 (66.67 %)                                                  Epoch 6/100 Batch 7/9 (77.78 %)                                                  Epoch 6/100 Batch 8/9 (88.89 %)                                                  Epoch 6/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 7/100 Batch 1/9 (11.11 %)                                                  Epoch 7/100 Batch 2/9 (22.22 %)                                                  Epoch 7/100 Batch 3/9 (33.33 %)                                                  Epoch 7/100 Batch 4/9 (44.44 %)                                                  Epoch 7/100 Batch 5/9 (55.56 %)                                                  Epoch 7/100 Batch 6/9 (66.67 %)                                                  Epoch 7/100 Batch 7/9 (77.78 %)                                                  Epoch 7/100 Batch 8/9 (88.89 %)                                                  Epoch 7/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 8/100 Batch 1/9 (11.11 %)                                                  Epoch 8/100 Batch 2/9 (22.22 %)                                                  Epoch 8/100 Batch 3/9 (33.33 %)                                                  Epoch 8/100 Batch 4/9 (44.44 %)                                                  Epoch 8/100 Batch 5/9 (55.56 %)                                                  Epoch 8/100 Batch 6/9 (66.67 %)                                                  Epoch 8/100 Batch 7/9 (77.78 %)                                                  Epoch 8/100 Batch 8/9 (88.89 %)                                                  Epoch 8/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 9/100 Batch 1/9 (11.11 %)                                                  Epoch 9/100 Batch 2/9 (22.22 %)                                                  Epoch 9/100 Batch 3/9 (33.33 %)                                                  Epoch 9/100 Batch 4/9 (44.44 %)                                                  Epoch 9/100 Batch 5/9 (55.56 %)                                                  Epoch 9/100 Batch 6/9 (66.67 %)                                                  Epoch 9/100 Batch 7/9 (77.78 %)                                                  Epoch 9/100 Batch 8/9 (88.89 %)                                                  Epoch 9/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 0.000125
+                                                  Epoch 10/100 Batch 1/9 (11.11 %)                                                  Epoch 10/100 Batch 2/9 (22.22 %)                                                  Epoch 10/100 Batch 3/9 (33.33 %)                                                  Epoch 10/100 Batch 4/9 (44.44 %)                                                  Epoch 10/100 Batch 5/9 (55.56 %)                                                  Epoch 10/100 Batch 6/9 (66.67 %)                                                  Epoch 10/100 Batch 7/9 (77.78 %)                                                  Epoch 10/100 Batch 8/9 (88.89 %)                                                  Epoch 10/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 11/100 Batch 1/9 (11.11 %)                                                  Epoch 11/100 Batch 2/9 (22.22 %)                                                  Epoch 11/100 Batch 3/9 (33.33 %)                                                  Epoch 11/100 Batch 4/9 (44.44 %)                                                  Epoch 11/100 Batch 5/9 (55.56 %)                                                  Epoch 11/100 Batch 6/9 (66.67 %)                                                  Epoch 11/100 Batch 7/9 (77.78 %)                                                  Epoch 11/100 Batch 8/9 (88.89 %)                                                  Epoch 11/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 12/100 Batch 1/9 (11.11 %)                                                  Epoch 12/100 Batch 2/9 (22.22 %)                                                  Epoch 12/100 Batch 3/9 (33.33 %)                                                  Epoch 12/100 Batch 4/9 (44.44 %)                                                  Epoch 12/100 Batch 5/9 (55.56 %)                                                  Epoch 12/100 Batch 6/9 (66.67 %)                                                  Epoch 12/100 Batch 7/9 (77.78 %)                                                  Epoch 12/100 Batch 8/9 (88.89 %)                                                  Epoch 12/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 13/100 Batch 1/9 (11.11 %)                                                  Epoch 13/100 Batch 2/9 (22.22 %)                                                  Epoch 13/100 Batch 3/9 (33.33 %)                                                  Epoch 13/100 Batch 4/9 (44.44 %)                                                  Epoch 13/100 Batch 5/9 (55.56 %)                                                  Epoch 13/100 Batch 6/9 (66.67 %)                                                  Epoch 13/100 Batch 7/9 (77.78 %)                                                  Epoch 13/100 Batch 8/9 (88.89 %)                                                  Epoch 13/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 14/100 Batch 1/9 (11.11 %)                                                  Epoch 14/100 Batch 2/9 (22.22 %)                                                  Epoch 14/100 Batch 3/9 (33.33 %)                                                  Epoch 14/100 Batch 4/9 (44.44 %)                                                  Epoch 14/100 Batch 5/9 (55.56 %)                                                  Epoch 14/100 Batch 6/9 (66.67 %)                                                  Epoch 14/100 Batch 7/9 (77.78 %)                                                  Epoch 14/100 Batch 8/9 (88.89 %)                                                  Epoch 14/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 6.25e-05
+                                                  Epoch 15/100 Batch 1/9 (11.11 %)                                                  Epoch 15/100 Batch 2/9 (22.22 %)                                                  Epoch 15/100 Batch 3/9 (33.33 %)                                                  Epoch 15/100 Batch 4/9 (44.44 %)                                                  Epoch 15/100 Batch 5/9 (55.56 %)                                                  Epoch 15/100 Batch 6/9 (66.67 %)                                                  Epoch 15/100 Batch 7/9 (77.78 %)                                                  Epoch 15/100 Batch 8/9 (88.89 %)                                                  Epoch 15/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 16/100 Batch 1/9 (11.11 %)                                                  Epoch 16/100 Batch 2/9 (22.22 %)                                                  Epoch 16/100 Batch 3/9 (33.33 %)                                                  Epoch 16/100 Batch 4/9 (44.44 %)                                                  Epoch 16/100 Batch 5/9 (55.56 %)                                                  Epoch 16/100 Batch 6/9 (66.67 %)                                                  Epoch 16/100 Batch 7/9 (77.78 %)                                                  Epoch 16/100 Batch 8/9 (88.89 %)                                                  Epoch 16/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 17/100 Batch 1/9 (11.11 %)                                                  Epoch 17/100 Batch 2/9 (22.22 %)                                                  Epoch 17/100 Batch 3/9 (33.33 %)                                                  Epoch 17/100 Batch 4/9 (44.44 %)                                                  Epoch 17/100 Batch 5/9 (55.56 %)                                                  Epoch 17/100 Batch 6/9 (66.67 %)                                                  Epoch 17/100 Batch 7/9 (77.78 %)                                                  Epoch 17/100 Batch 8/9 (88.89 %)                                                  Epoch 17/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 18/100 Batch 1/9 (11.11 %)                                                  Epoch 18/100 Batch 2/9 (22.22 %)                                                  Epoch 18/100 Batch 3/9 (33.33 %)                                                  Epoch 18/100 Batch 4/9 (44.44 %)                                                  Epoch 18/100 Batch 5/9 (55.56 %)                                                  Epoch 18/100 Batch 6/9 (66.67 %)                                                  Epoch 18/100 Batch 7/9 (77.78 %)                                                  Epoch 18/100 Batch 8/9 (88.89 %)                                                  Epoch 18/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 19/100 Batch 1/9 (11.11 %)                                                  Epoch 19/100 Batch 2/9 (22.22 %)                                                  Epoch 19/100 Batch 3/9 (33.33 %)                                                  Epoch 19/100 Batch 4/9 (44.44 %)                                                  Epoch 19/100 Batch 5/9 (55.56 %)                                                  Epoch 19/100 Batch 6/9 (66.67 %)                                                  Epoch 19/100 Batch 7/9 (77.78 %)                                                  Epoch 19/100 Batch 8/9 (88.89 %)                                                  Epoch 19/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 3.125e-05
+                                                  Epoch 20/100 Batch 1/9 (11.11 %)                                                  Epoch 20/100 Batch 2/9 (22.22 %)                                                  Epoch 20/100 Batch 3/9 (33.33 %)                                                  Epoch 20/100 Batch 4/9 (44.44 %)                                                  Epoch 20/100 Batch 5/9 (55.56 %)                                                  Epoch 20/100 Batch 6/9 (66.67 %)                                                  Epoch 20/100 Batch 7/9 (77.78 %)                                                  Epoch 20/100 Batch 8/9 (88.89 %)                                                  Epoch 20/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 21/100 Batch 1/9 (11.11 %)                                                  Epoch 21/100 Batch 2/9 (22.22 %)                                                  Epoch 21/100 Batch 3/9 (33.33 %)                                                  Epoch 21/100 Batch 4/9 (44.44 %)                                                  Epoch 21/100 Batch 5/9 (55.56 %)                                                  Epoch 21/100 Batch 6/9 (66.67 %)                                                  Epoch 21/100 Batch 7/9 (77.78 %)                                                  Epoch 21/100 Batch 8/9 (88.89 %)                                                  Epoch 21/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 22/100 Batch 1/9 (11.11 %)                                                  Epoch 22/100 Batch 2/9 (22.22 %)                                                  Epoch 22/100 Batch 3/9 (33.33 %)                                                  Epoch 22/100 Batch 4/9 (44.44 %)                                                  Epoch 22/100 Batch 5/9 (55.56 %)                                                  Epoch 22/100 Batch 6/9 (66.67 %)                                                  Epoch 22/100 Batch 7/9 (77.78 %)                                                  Epoch 22/100 Batch 8/9 (88.89 %)                                                  Epoch 22/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 23/100 Batch 1/9 (11.11 %)                                                  Epoch 23/100 Batch 2/9 (22.22 %)                                                  Epoch 23/100 Batch 3/9 (33.33 %)                                                  Epoch 23/100 Batch 4/9 (44.44 %)                                                  Epoch 23/100 Batch 5/9 (55.56 %)                                                  Epoch 23/100 Batch 6/9 (66.67 %)                                                  Epoch 23/100 Batch 7/9 (77.78 %)                                                  Epoch 23/100 Batch 8/9 (88.89 %)                                                  Epoch 23/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 24/100 Batch 1/9 (11.11 %)                                                  Epoch 24/100 Batch 2/9 (22.22 %)                                                  Epoch 24/100 Batch 3/9 (33.33 %)                                                  Epoch 24/100 Batch 4/9 (44.44 %)                                                  Epoch 24/100 Batch 5/9 (55.56 %)                                                  Epoch 24/100 Batch 6/9 (66.67 %)                                                  Epoch 24/100 Batch 7/9 (77.78 %)                                                  Epoch 24/100 Batch 8/9 (88.89 %)                                                  Epoch 24/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 1.5625e-05
+                                                  Epoch 25/100 Batch 1/9 (11.11 %)                                                  Epoch 25/100 Batch 2/9 (22.22 %)                                                  Epoch 25/100 Batch 3/9 (33.33 %)                                                  Epoch 25/100 Batch 4/9 (44.44 %)                                                  Epoch 25/100 Batch 5/9 (55.56 %)                                                  Epoch 25/100 Batch 6/9 (66.67 %)                                                  Epoch 25/100 Batch 7/9 (77.78 %)                                                  Epoch 25/100 Batch 8/9 (88.89 %)                                                  Epoch 25/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 26/100 Batch 1/9 (11.11 %)                                                  Epoch 26/100 Batch 2/9 (22.22 %)                                                  Epoch 26/100 Batch 3/9 (33.33 %)                                                  Epoch 26/100 Batch 4/9 (44.44 %)                                                  Epoch 26/100 Batch 5/9 (55.56 %)                                                  Epoch 26/100 Batch 6/9 (66.67 %)                                                  Epoch 26/100 Batch 7/9 (77.78 %)                                                  Epoch 26/100 Batch 8/9 (88.89 %)                                                  Epoch 26/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 27/100 Batch 1/9 (11.11 %)                                                  Epoch 27/100 Batch 2/9 (22.22 %)                                                  Epoch 27/100 Batch 3/9 (33.33 %)                                                  Epoch 27/100 Batch 4/9 (44.44 %)                                                  Epoch 27/100 Batch 5/9 (55.56 %)                                                  Epoch 27/100 Batch 6/9 (66.67 %)                                                  Epoch 27/100 Batch 7/9 (77.78 %)                                                  Epoch 27/100 Batch 8/9 (88.89 %)                                                  Epoch 27/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 28/100 Batch 1/9 (11.11 %)                                                  Epoch 28/100 Batch 2/9 (22.22 %)                                                  Epoch 28/100 Batch 3/9 (33.33 %)                                                  Epoch 28/100 Batch 4/9 (44.44 %)                                                  Epoch 28/100 Batch 5/9 (55.56 %)                                                  Epoch 28/100 Batch 6/9 (66.67 %)                                                  Epoch 28/100 Batch 7/9 (77.78 %)                                                  Epoch 28/100 Batch 8/9 (88.89 %)                                                  Epoch 28/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 29/100 Batch 1/9 (11.11 %)                                                  Epoch 29/100 Batch 2/9 (22.22 %)                                                  Epoch 29/100 Batch 3/9 (33.33 %)                                                  Epoch 29/100 Batch 4/9 (44.44 %)                                                  Epoch 29/100 Batch 5/9 (55.56 %)                                                  Epoch 29/100 Batch 6/9 (66.67 %)                                                  Epoch 29/100 Batch 7/9 (77.78 %)                                                  Epoch 29/100 Batch 8/9 (88.89 %)                                                  Epoch 29/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 7.8125e-06
+                                                  Epoch 30/100 Batch 1/9 (11.11 %)                                                  Epoch 30/100 Batch 2/9 (22.22 %)                                                  Epoch 30/100 Batch 3/9 (33.33 %)                                                  Epoch 30/100 Batch 4/9 (44.44 %)                                                  Epoch 30/100 Batch 5/9 (55.56 %)                                                  Epoch 30/100 Batch 6/9 (66.67 %)                                                  Epoch 30/100 Batch 7/9 (77.78 %)                                                  Epoch 30/100 Batch 8/9 (88.89 %)                                                  Epoch 30/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 31/100 Batch 1/9 (11.11 %)                                                  Epoch 31/100 Batch 2/9 (22.22 %)                                                  Epoch 31/100 Batch 3/9 (33.33 %)                                                  Epoch 31/100 Batch 4/9 (44.44 %)                                                  Epoch 31/100 Batch 5/9 (55.56 %)                                                  Epoch 31/100 Batch 6/9 (66.67 %)                                                  Epoch 31/100 Batch 7/9 (77.78 %)                                                  Epoch 31/100 Batch 8/9 (88.89 %)                                                  Epoch 31/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 32/100 Batch 1/9 (11.11 %)                                                  Epoch 32/100 Batch 2/9 (22.22 %)                                                  Epoch 32/100 Batch 3/9 (33.33 %)                                                  Epoch 32/100 Batch 4/9 (44.44 %)                                                  Epoch 32/100 Batch 5/9 (55.56 %)                                                  Epoch 32/100 Batch 6/9 (66.67 %)                                                  Epoch 32/100 Batch 7/9 (77.78 %)                                                  Epoch 32/100 Batch 8/9 (88.89 %)                                                  Epoch 32/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 33/100 Batch 1/9 (11.11 %)                                                  Epoch 33/100 Batch 2/9 (22.22 %)                                                  Epoch 33/100 Batch 3/9 (33.33 %)                                                  Epoch 33/100 Batch 4/9 (44.44 %)                                                  Epoch 33/100 Batch 5/9 (55.56 %)                                                  Epoch 33/100 Batch 6/9 (66.67 %)                                                  Epoch 33/100 Batch 7/9 (77.78 %)                                                  Epoch 33/100 Batch 8/9 (88.89 %)                                                  Epoch 33/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 34/100 Batch 1/9 (11.11 %)                                                  Epoch 34/100 Batch 2/9 (22.22 %)                                                  Epoch 34/100 Batch 3/9 (33.33 %)                                                  Epoch 34/100 Batch 4/9 (44.44 %)                                                  Epoch 34/100 Batch 5/9 (55.56 %)                                                  Epoch 34/100 Batch 6/9 (66.67 %)                                                  Epoch 34/100 Batch 7/9 (77.78 %)                                                  Epoch 34/100 Batch 8/9 (88.89 %)                                                  Epoch 34/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 3.90625e-06
+                                                  Epoch 35/100 Batch 1/9 (11.11 %)                                                  Epoch 35/100 Batch 2/9 (22.22 %)                                                  Epoch 35/100 Batch 3/9 (33.33 %)                                                  Epoch 35/100 Batch 4/9 (44.44 %)                                                  Epoch 35/100 Batch 5/9 (55.56 %)                                                  Epoch 35/100 Batch 6/9 (66.67 %)                                                  Epoch 35/100 Batch 7/9 (77.78 %)                                                  Epoch 35/100 Batch 8/9 (88.89 %)                                                  Epoch 35/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 36/100 Batch 1/9 (11.11 %)                                                  Epoch 36/100 Batch 2/9 (22.22 %)                                                  Epoch 36/100 Batch 3/9 (33.33 %)                                                  Epoch 36/100 Batch 4/9 (44.44 %)                                                  Epoch 36/100 Batch 5/9 (55.56 %)                                                  Epoch 36/100 Batch 6/9 (66.67 %)                                                  Epoch 36/100 Batch 7/9 (77.78 %)                                                  Epoch 36/100 Batch 8/9 (88.89 %)                                                  Epoch 36/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 37/100 Batch 1/9 (11.11 %)                                                  Epoch 37/100 Batch 2/9 (22.22 %)                                                  Epoch 37/100 Batch 3/9 (33.33 %)                                                  Epoch 37/100 Batch 4/9 (44.44 %)                                                  Epoch 37/100 Batch 5/9 (55.56 %)                                                  Epoch 37/100 Batch 6/9 (66.67 %)                                                  Epoch 37/100 Batch 7/9 (77.78 %)                                                  Epoch 37/100 Batch 8/9 (88.89 %)                                                  Epoch 37/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 38/100 Batch 1/9 (11.11 %)                                                  Epoch 38/100 Batch 2/9 (22.22 %)                                                  Epoch 38/100 Batch 3/9 (33.33 %)                                                  Epoch 38/100 Batch 4/9 (44.44 %)                                                  Epoch 38/100 Batch 5/9 (55.56 %)                                                  Epoch 38/100 Batch 6/9 (66.67 %)                                                  Epoch 38/100 Batch 7/9 (77.78 %)                                                  Epoch 38/100 Batch 8/9 (88.89 %)                                                  Epoch 38/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 39/100 Batch 1/9 (11.11 %)                                                  Epoch 39/100 Batch 2/9 (22.22 %)                                                  Epoch 39/100 Batch 3/9 (33.33 %)                                                  Epoch 39/100 Batch 4/9 (44.44 %)                                                  Epoch 39/100 Batch 5/9 (55.56 %)                                                  Epoch 39/100 Batch 6/9 (66.67 %)                                                  Epoch 39/100 Batch 7/9 (77.78 %)                                                  Epoch 39/100 Batch 8/9 (88.89 %)                                                  Epoch 39/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 1.953125e-06
+                                                  Epoch 40/100 Batch 1/9 (11.11 %)                                                  Epoch 40/100 Batch 2/9 (22.22 %)                                                  Epoch 40/100 Batch 3/9 (33.33 %)                                                  Epoch 40/100 Batch 4/9 (44.44 %)                                                  Epoch 40/100 Batch 5/9 (55.56 %)                                                  Epoch 40/100 Batch 6/9 (66.67 %)                                                  Epoch 40/100 Batch 7/9 (77.78 %)                                                  Epoch 40/100 Batch 8/9 (88.89 %)                                                  Epoch 40/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 41/100 Batch 1/9 (11.11 %)                                                  Epoch 41/100 Batch 2/9 (22.22 %)                                                  Epoch 41/100 Batch 3/9 (33.33 %)                                                  Epoch 41/100 Batch 4/9 (44.44 %)                                                  Epoch 41/100 Batch 5/9 (55.56 %)                                                  Epoch 41/100 Batch 6/9 (66.67 %)                                                  Epoch 41/100 Batch 7/9 (77.78 %)                                                  Epoch 41/100 Batch 8/9 (88.89 %)                                                  Epoch 41/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 42/100 Batch 1/9 (11.11 %)                                                  Epoch 42/100 Batch 2/9 (22.22 %)                                                  Epoch 42/100 Batch 3/9 (33.33 %)                                                  Epoch 42/100 Batch 4/9 (44.44 %)                                                  Epoch 42/100 Batch 5/9 (55.56 %)                                                  Epoch 42/100 Batch 6/9 (66.67 %)                                                  Epoch 42/100 Batch 7/9 (77.78 %)                                                  Epoch 42/100 Batch 8/9 (88.89 %)                                                  Epoch 42/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 43/100 Batch 1/9 (11.11 %)                                                  Epoch 43/100 Batch 2/9 (22.22 %)                                                  Epoch 43/100 Batch 3/9 (33.33 %)                                                  Epoch 43/100 Batch 4/9 (44.44 %)                                                  Epoch 43/100 Batch 5/9 (55.56 %)                                                  Epoch 43/100 Batch 6/9 (66.67 %)                                                  Epoch 43/100 Batch 7/9 (77.78 %)                                                  Epoch 43/100 Batch 8/9 (88.89 %)                                                  Epoch 43/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 44/100 Batch 1/9 (11.11 %)                                                  Epoch 44/100 Batch 2/9 (22.22 %)                                                  Epoch 44/100 Batch 3/9 (33.33 %)                                                  Epoch 44/100 Batch 4/9 (44.44 %)                                                  Epoch 44/100 Batch 5/9 (55.56 %)                                                  Epoch 44/100 Batch 6/9 (66.67 %)                                                  Epoch 44/100 Batch 7/9 (77.78 %)                                                  Epoch 44/100 Batch 8/9 (88.89 %)                                                  Epoch 44/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 9.765625e-07
+                                                  Epoch 45/100 Batch 1/9 (11.11 %)                                                  Epoch 45/100 Batch 2/9 (22.22 %)                                                  Epoch 45/100 Batch 3/9 (33.33 %)                                                  Epoch 45/100 Batch 4/9 (44.44 %)                                                  Epoch 45/100 Batch 5/9 (55.56 %)                                                  Epoch 45/100 Batch 6/9 (66.67 %)                                                  Epoch 45/100 Batch 7/9 (77.78 %)                                                  Epoch 45/100 Batch 8/9 (88.89 %)                                                  Epoch 45/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 46/100 Batch 1/9 (11.11 %)                                                  Epoch 46/100 Batch 2/9 (22.22 %)                                                  Epoch 46/100 Batch 3/9 (33.33 %)                                                  Epoch 46/100 Batch 4/9 (44.44 %)                                                  Epoch 46/100 Batch 5/9 (55.56 %)                                                  Epoch 46/100 Batch 6/9 (66.67 %)                                                  Epoch 46/100 Batch 7/9 (77.78 %)                                                  Epoch 46/100 Batch 8/9 (88.89 %)                                                  Epoch 46/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 47/100 Batch 1/9 (11.11 %)                                                  Epoch 47/100 Batch 2/9 (22.22 %)                                                  Epoch 47/100 Batch 3/9 (33.33 %)                                                  Epoch 47/100 Batch 4/9 (44.44 %)                                                  Epoch 47/100 Batch 5/9 (55.56 %)                                                  Epoch 47/100 Batch 6/9 (66.67 %)                                                  Epoch 47/100 Batch 7/9 (77.78 %)                                                  Epoch 47/100 Batch 8/9 (88.89 %)                                                  Epoch 47/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 48/100 Batch 1/9 (11.11 %)                                                  Epoch 48/100 Batch 2/9 (22.22 %)                                                  Epoch 48/100 Batch 3/9 (33.33 %)                                                  Epoch 48/100 Batch 4/9 (44.44 %)                                                  Epoch 48/100 Batch 5/9 (55.56 %)                                                  Epoch 48/100 Batch 6/9 (66.67 %)                                                  Epoch 48/100 Batch 7/9 (77.78 %)                                                  Epoch 48/100 Batch 8/9 (88.89 %)                                                  Epoch 48/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 49/100 Batch 1/9 (11.11 %)                                                  Epoch 49/100 Batch 2/9 (22.22 %)                                                  Epoch 49/100 Batch 3/9 (33.33 %)                                                  Epoch 49/100 Batch 4/9 (44.44 %)                                                  Epoch 49/100 Batch 5/9 (55.56 %)                                                  Epoch 49/100 Batch 6/9 (66.67 %)                                                  Epoch 49/100 Batch 7/9 (77.78 %)                                                  Epoch 49/100 Batch 8/9 (88.89 %)                                                  Epoch 49/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 4.8828125e-07
+                                                  Epoch 50/100 Batch 1/9 (11.11 %)                                                  Epoch 50/100 Batch 2/9 (22.22 %)                                                  Epoch 50/100 Batch 3/9 (33.33 %)                                                  Epoch 50/100 Batch 4/9 (44.44 %)                                                  Epoch 50/100 Batch 5/9 (55.56 %)                                                  Epoch 50/100 Batch 6/9 (66.67 %)                                                  Epoch 50/100 Batch 7/9 (77.78 %)                                                  Epoch 50/100 Batch 8/9 (88.89 %)                                                  Epoch 50/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 51/100 Batch 1/9 (11.11 %)                                                  Epoch 51/100 Batch 2/9 (22.22 %)                                                  Epoch 51/100 Batch 3/9 (33.33 %)                                                  Epoch 51/100 Batch 4/9 (44.44 %)                                                  Epoch 51/100 Batch 5/9 (55.56 %)                                                  Epoch 51/100 Batch 6/9 (66.67 %)                                                  Epoch 51/100 Batch 7/9 (77.78 %)                                                  Epoch 51/100 Batch 8/9 (88.89 %)                                                  Epoch 51/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 52/100 Batch 1/9 (11.11 %)                                                  Epoch 52/100 Batch 2/9 (22.22 %)                                                  Epoch 52/100 Batch 3/9 (33.33 %)                                                  Epoch 52/100 Batch 4/9 (44.44 %)                                                  Epoch 52/100 Batch 5/9 (55.56 %)                                                  Epoch 52/100 Batch 6/9 (66.67 %)                                                  Epoch 52/100 Batch 7/9 (77.78 %)                                                  Epoch 52/100 Batch 8/9 (88.89 %)                                                  Epoch 52/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 53/100 Batch 1/9 (11.11 %)                                                  Epoch 53/100 Batch 2/9 (22.22 %)                                                  Epoch 53/100 Batch 3/9 (33.33 %)                                                  Epoch 53/100 Batch 4/9 (44.44 %)                                                  Epoch 53/100 Batch 5/9 (55.56 %)                                                  Epoch 53/100 Batch 6/9 (66.67 %)                                                  Epoch 53/100 Batch 7/9 (77.78 %)                                                  Epoch 53/100 Batch 8/9 (88.89 %)                                                  Epoch 53/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 54/100 Batch 1/9 (11.11 %)                                                  Epoch 54/100 Batch 2/9 (22.22 %)                                                  Epoch 54/100 Batch 3/9 (33.33 %)                                                  Epoch 54/100 Batch 4/9 (44.44 %)                                                  Epoch 54/100 Batch 5/9 (55.56 %)                                                  Epoch 54/100 Batch 6/9 (66.67 %)                                                  Epoch 54/100 Batch 7/9 (77.78 %)                                                  Epoch 54/100 Batch 8/9 (88.89 %)                                                  Epoch 54/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 2.44140625e-07
+                                                  Epoch 55/100 Batch 1/9 (11.11 %)                                                  Epoch 55/100 Batch 2/9 (22.22 %)                                                  Epoch 55/100 Batch 3/9 (33.33 %)                                                  Epoch 55/100 Batch 4/9 (44.44 %)                                                  Epoch 55/100 Batch 5/9 (55.56 %)                                                  Epoch 55/100 Batch 6/9 (66.67 %)                                                  Epoch 55/100 Batch 7/9 (77.78 %)                                                  Epoch 55/100 Batch 8/9 (88.89 %)                                                  Epoch 55/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 56/100 Batch 1/9 (11.11 %)                                                  Epoch 56/100 Batch 2/9 (22.22 %)                                                  Epoch 56/100 Batch 3/9 (33.33 %)                                                  Epoch 56/100 Batch 4/9 (44.44 %)                                                  Epoch 56/100 Batch 5/9 (55.56 %)                                                  Epoch 56/100 Batch 6/9 (66.67 %)                                                  Epoch 56/100 Batch 7/9 (77.78 %)                                                  Epoch 56/100 Batch 8/9 (88.89 %)                                                  Epoch 56/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 57/100 Batch 1/9 (11.11 %)                                                  Epoch 57/100 Batch 2/9 (22.22 %)                                                  Epoch 57/100 Batch 3/9 (33.33 %)                                                  Epoch 57/100 Batch 4/9 (44.44 %)                                                  Epoch 57/100 Batch 5/9 (55.56 %)                                                  Epoch 57/100 Batch 6/9 (66.67 %)                                                  Epoch 57/100 Batch 7/9 (77.78 %)                                                  Epoch 57/100 Batch 8/9 (88.89 %)                                                  Epoch 57/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 58/100 Batch 1/9 (11.11 %)                                                  Epoch 58/100 Batch 2/9 (22.22 %)                                                  Epoch 58/100 Batch 3/9 (33.33 %)                                                  Epoch 58/100 Batch 4/9 (44.44 %)                                                  Epoch 58/100 Batch 5/9 (55.56 %)                                                  Epoch 58/100 Batch 6/9 (66.67 %)                                                  Epoch 58/100 Batch 7/9 (77.78 %)                                                  Epoch 58/100 Batch 8/9 (88.89 %)                                                  Epoch 58/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 59/100 Batch 1/9 (11.11 %)                                                  Epoch 59/100 Batch 2/9 (22.22 %)                                                  Epoch 59/100 Batch 3/9 (33.33 %)                                                  Epoch 59/100 Batch 4/9 (44.44 %)                                                  Epoch 59/100 Batch 5/9 (55.56 %)                                                  Epoch 59/100 Batch 6/9 (66.67 %)                                                  Epoch 59/100 Batch 7/9 (77.78 %)                                                  Epoch 59/100 Batch 8/9 (88.89 %)                                                  Epoch 59/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 1.220703125e-07
+                                                  Epoch 60/100 Batch 1/9 (11.11 %)                                                  Epoch 60/100 Batch 2/9 (22.22 %)                                                  Epoch 60/100 Batch 3/9 (33.33 %)                                                  Epoch 60/100 Batch 4/9 (44.44 %)                                                  Epoch 60/100 Batch 5/9 (55.56 %)                                                  Epoch 60/100 Batch 6/9 (66.67 %)                                                  Epoch 60/100 Batch 7/9 (77.78 %)                                                  Epoch 60/100 Batch 8/9 (88.89 %)                                                  Epoch 60/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 61/100 Batch 1/9 (11.11 %)                                                  Epoch 61/100 Batch 2/9 (22.22 %)                                                  Epoch 61/100 Batch 3/9 (33.33 %)                                                  Epoch 61/100 Batch 4/9 (44.44 %)                                                  Epoch 61/100 Batch 5/9 (55.56 %)                                                  Epoch 61/100 Batch 6/9 (66.67 %)                                                  Epoch 61/100 Batch 7/9 (77.78 %)                                                  Epoch 61/100 Batch 8/9 (88.89 %)                                                  Epoch 61/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 62/100 Batch 1/9 (11.11 %)                                                  Epoch 62/100 Batch 2/9 (22.22 %)                                                  Epoch 62/100 Batch 3/9 (33.33 %)                                                  Epoch 62/100 Batch 4/9 (44.44 %)                                                  Epoch 62/100 Batch 5/9 (55.56 %)                                                  Epoch 62/100 Batch 6/9 (66.67 %)                                                  Epoch 62/100 Batch 7/9 (77.78 %)                                                  Epoch 62/100 Batch 8/9 (88.89 %)                                                  Epoch 62/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 63/100 Batch 1/9 (11.11 %)                                                  Epoch 63/100 Batch 2/9 (22.22 %)                                                  Epoch 63/100 Batch 3/9 (33.33 %)                                                  Epoch 63/100 Batch 4/9 (44.44 %)                                                  Epoch 63/100 Batch 5/9 (55.56 %)                                                  Epoch 63/100 Batch 6/9 (66.67 %)                                                  Epoch 63/100 Batch 7/9 (77.78 %)                                                  Epoch 63/100 Batch 8/9 (88.89 %)                                                  Epoch 63/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 64/100 Batch 1/9 (11.11 %)                                                  Epoch 64/100 Batch 2/9 (22.22 %)                                                  Epoch 64/100 Batch 3/9 (33.33 %)                                                  Epoch 64/100 Batch 4/9 (44.44 %)                                                  Epoch 64/100 Batch 5/9 (55.56 %)                                                  Epoch 64/100 Batch 6/9 (66.67 %)                                                  Epoch 64/100 Batch 7/9 (77.78 %)                                                  Epoch 64/100 Batch 8/9 (88.89 %)                                                  Epoch 64/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 6.103515625e-08
+                                                  Epoch 65/100 Batch 1/9 (11.11 %)                                                  Epoch 65/100 Batch 2/9 (22.22 %)                                                  Epoch 65/100 Batch 3/9 (33.33 %)                                                  Epoch 65/100 Batch 4/9 (44.44 %)                                                  Epoch 65/100 Batch 5/9 (55.56 %)                                                  Epoch 65/100 Batch 6/9 (66.67 %)                                                  Epoch 65/100 Batch 7/9 (77.78 %)                                                  Epoch 65/100 Batch 8/9 (88.89 %)                                                  Epoch 65/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 66/100 Batch 1/9 (11.11 %)                                                  Epoch 66/100 Batch 2/9 (22.22 %)                                                  Epoch 66/100 Batch 3/9 (33.33 %)                                                  Epoch 66/100 Batch 4/9 (44.44 %)                                                  Epoch 66/100 Batch 5/9 (55.56 %)                                                  Epoch 66/100 Batch 6/9 (66.67 %)                                                  Epoch 66/100 Batch 7/9 (77.78 %)                                                  Epoch 66/100 Batch 8/9 (88.89 %)                                                  Epoch 66/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 67/100 Batch 1/9 (11.11 %)                                                  Epoch 67/100 Batch 2/9 (22.22 %)                                                  Epoch 67/100 Batch 3/9 (33.33 %)                                                  Epoch 67/100 Batch 4/9 (44.44 %)                                                  Epoch 67/100 Batch 5/9 (55.56 %)                                                  Epoch 67/100 Batch 6/9 (66.67 %)                                                  Epoch 67/100 Batch 7/9 (77.78 %)                                                  Epoch 67/100 Batch 8/9 (88.89 %)                                                  Epoch 67/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 68/100 Batch 1/9 (11.11 %)                                                  Epoch 68/100 Batch 2/9 (22.22 %)                                                  Epoch 68/100 Batch 3/9 (33.33 %)                                                  Epoch 68/100 Batch 4/9 (44.44 %)                                                  Epoch 68/100 Batch 5/9 (55.56 %)                                                  Epoch 68/100 Batch 6/9 (66.67 %)                                                  Epoch 68/100 Batch 7/9 (77.78 %)                                                  Epoch 68/100 Batch 8/9 (88.89 %)                                                  Epoch 68/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 69/100 Batch 1/9 (11.11 %)                                                  Epoch 69/100 Batch 2/9 (22.22 %)                                                  Epoch 69/100 Batch 3/9 (33.33 %)                                                  Epoch 69/100 Batch 4/9 (44.44 %)                                                  Epoch 69/100 Batch 5/9 (55.56 %)                                                  Epoch 69/100 Batch 6/9 (66.67 %)                                                  Epoch 69/100 Batch 7/9 (77.78 %)                                                  Epoch 69/100 Batch 8/9 (88.89 %)                                                  Epoch 69/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 3.0517578125e-08
+                                                  Epoch 70/100 Batch 1/9 (11.11 %)                                                  Epoch 70/100 Batch 2/9 (22.22 %)                                                  Epoch 70/100 Batch 3/9 (33.33 %)                                                  Epoch 70/100 Batch 4/9 (44.44 %)                                                  Epoch 70/100 Batch 5/9 (55.56 %)                                                  Epoch 70/100 Batch 6/9 (66.67 %)                                                  Epoch 70/100 Batch 7/9 (77.78 %)                                                  Epoch 70/100 Batch 8/9 (88.89 %)                                                  Epoch 70/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 71/100 Batch 1/9 (11.11 %)                                                  Epoch 71/100 Batch 2/9 (22.22 %)                                                  Epoch 71/100 Batch 3/9 (33.33 %)                                                  Epoch 71/100 Batch 4/9 (44.44 %)                                                  Epoch 71/100 Batch 5/9 (55.56 %)                                                  Epoch 71/100 Batch 6/9 (66.67 %)                                                  Epoch 71/100 Batch 7/9 (77.78 %)                                                  Epoch 71/100 Batch 8/9 (88.89 %)                                                  Epoch 71/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 72/100 Batch 1/9 (11.11 %)                                                  Epoch 72/100 Batch 2/9 (22.22 %)                                                  Epoch 72/100 Batch 3/9 (33.33 %)                                                  Epoch 72/100 Batch 4/9 (44.44 %)                                                  Epoch 72/100 Batch 5/9 (55.56 %)                                                  Epoch 72/100 Batch 6/9 (66.67 %)                                                  Epoch 72/100 Batch 7/9 (77.78 %)                                                  Epoch 72/100 Batch 8/9 (88.89 %)                                                  Epoch 72/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 73/100 Batch 1/9 (11.11 %)                                                  Epoch 73/100 Batch 2/9 (22.22 %)                                                  Epoch 73/100 Batch 3/9 (33.33 %)                                                  Epoch 73/100 Batch 4/9 (44.44 %)                                                  Epoch 73/100 Batch 5/9 (55.56 %)                                                  Epoch 73/100 Batch 6/9 (66.67 %)                                                  Epoch 73/100 Batch 7/9 (77.78 %)                                                  Epoch 73/100 Batch 8/9 (88.89 %)                                                  Epoch 73/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 74/100 Batch 1/9 (11.11 %)                                                  Epoch 74/100 Batch 2/9 (22.22 %)                                                  Epoch 74/100 Batch 3/9 (33.33 %)                                                  Epoch 74/100 Batch 4/9 (44.44 %)                                                  Epoch 74/100 Batch 5/9 (55.56 %)                                                  Epoch 74/100 Batch 6/9 (66.67 %)                                                  Epoch 74/100 Batch 7/9 (77.78 %)                                                  Epoch 74/100 Batch 8/9 (88.89 %)                                                  Epoch 74/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 1.52587890625e-08
+                                                  Epoch 75/100 Batch 1/9 (11.11 %)                                                  Epoch 75/100 Batch 2/9 (22.22 %)                                                  Epoch 75/100 Batch 3/9 (33.33 %)                                                  Epoch 75/100 Batch 4/9 (44.44 %)                                                  Epoch 75/100 Batch 5/9 (55.56 %)                                                  Epoch 75/100 Batch 6/9 (66.67 %)                                                  Epoch 75/100 Batch 7/9 (77.78 %)                                                  Epoch 75/100 Batch 8/9 (88.89 %)                                                  Epoch 75/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 76/100 Batch 1/9 (11.11 %)                                                  Epoch 76/100 Batch 2/9 (22.22 %)                                                  Epoch 76/100 Batch 3/9 (33.33 %)                                                  Epoch 76/100 Batch 4/9 (44.44 %)                                                  Epoch 76/100 Batch 5/9 (55.56 %)                                                  Epoch 76/100 Batch 6/9 (66.67 %)                                                  Epoch 76/100 Batch 7/9 (77.78 %)                                                  Epoch 76/100 Batch 8/9 (88.89 %)                                                  Epoch 76/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 77/100 Batch 1/9 (11.11 %)                                                  Epoch 77/100 Batch 2/9 (22.22 %)                                                  Epoch 77/100 Batch 3/9 (33.33 %)                                                  Epoch 77/100 Batch 4/9 (44.44 %)                                                  Epoch 77/100 Batch 5/9 (55.56 %)                                                  Epoch 77/100 Batch 6/9 (66.67 %)                                                  Epoch 77/100 Batch 7/9 (77.78 %)                                                  Epoch 77/100 Batch 8/9 (88.89 %)                                                  Epoch 77/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 78/100 Batch 1/9 (11.11 %)                                                  Epoch 78/100 Batch 2/9 (22.22 %)                                                  Epoch 78/100 Batch 3/9 (33.33 %)                                                  Epoch 78/100 Batch 4/9 (44.44 %)                                                  Epoch 78/100 Batch 5/9 (55.56 %)                                                  Epoch 78/100 Batch 6/9 (66.67 %)                                                  Epoch 78/100 Batch 7/9 (77.78 %)                                                  Epoch 78/100 Batch 8/9 (88.89 %)                                                  Epoch 78/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 79/100 Batch 1/9 (11.11 %)                                                  Epoch 79/100 Batch 2/9 (22.22 %)                                                  Epoch 79/100 Batch 3/9 (33.33 %)                                                  Epoch 79/100 Batch 4/9 (44.44 %)                                                  Epoch 79/100 Batch 5/9 (55.56 %)                                                  Epoch 79/100 Batch 6/9 (66.67 %)                                                  Epoch 79/100 Batch 7/9 (77.78 %)                                                  Epoch 79/100 Batch 8/9 (88.89 %)                                                  Epoch 79/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 7.62939453125e-09
+                                                  Epoch 80/100 Batch 1/9 (11.11 %)                                                  Epoch 80/100 Batch 2/9 (22.22 %)                                                  Epoch 80/100 Batch 3/9 (33.33 %)                                                  Epoch 80/100 Batch 4/9 (44.44 %)                                                  Epoch 80/100 Batch 5/9 (55.56 %)                                                  Epoch 80/100 Batch 6/9 (66.67 %)                                                  Epoch 80/100 Batch 7/9 (77.78 %)                                                  Epoch 80/100 Batch 8/9 (88.89 %)                                                  Epoch 80/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 81/100 Batch 1/9 (11.11 %)                                                  Epoch 81/100 Batch 2/9 (22.22 %)                                                  Epoch 81/100 Batch 3/9 (33.33 %)                                                  Epoch 81/100 Batch 4/9 (44.44 %)                                                  Epoch 81/100 Batch 5/9 (55.56 %)                                                  Epoch 81/100 Batch 6/9 (66.67 %)                                                  Epoch 81/100 Batch 7/9 (77.78 %)                                                  Epoch 81/100 Batch 8/9 (88.89 %)                                                  Epoch 81/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 82/100 Batch 1/9 (11.11 %)                                                  Epoch 82/100 Batch 2/9 (22.22 %)                                                  Epoch 82/100 Batch 3/9 (33.33 %)                                                  Epoch 82/100 Batch 4/9 (44.44 %)                                                  Epoch 82/100 Batch 5/9 (55.56 %)                                                  Epoch 82/100 Batch 6/9 (66.67 %)                                                  Epoch 82/100 Batch 7/9 (77.78 %)                                                  Epoch 82/100 Batch 8/9 (88.89 %)                                                  Epoch 82/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 83/100 Batch 1/9 (11.11 %)                                                  Epoch 83/100 Batch 2/9 (22.22 %)                                                  Epoch 83/100 Batch 3/9 (33.33 %)                                                  Epoch 83/100 Batch 4/9 (44.44 %)                                                  Epoch 83/100 Batch 5/9 (55.56 %)                                                  Epoch 83/100 Batch 6/9 (66.67 %)                                                  Epoch 83/100 Batch 7/9 (77.78 %)                                                  Epoch 83/100 Batch 8/9 (88.89 %)                                                  Epoch 83/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 84/100 Batch 1/9 (11.11 %)                                                  Epoch 84/100 Batch 2/9 (22.22 %)                                                  Epoch 84/100 Batch 3/9 (33.33 %)                                                  Epoch 84/100 Batch 4/9 (44.44 %)                                                  Epoch 84/100 Batch 5/9 (55.56 %)                                                  Epoch 84/100 Batch 6/9 (66.67 %)                                                  Epoch 84/100 Batch 7/9 (77.78 %)                                                  Epoch 84/100 Batch 8/9 (88.89 %)                                                  Epoch 84/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+lr -> 3.814697265625e-09
+                                                  Epoch 85/100 Batch 1/9 (11.11 %)                                                  Epoch 85/100 Batch 2/9 (22.22 %)                                                  Epoch 85/100 Batch 3/9 (33.33 %)                                                  Epoch 85/100 Batch 4/9 (44.44 %)                                                  Epoch 85/100 Batch 5/9 (55.56 %)                                                  Epoch 85/100 Batch 6/9 (66.67 %)                                                  Epoch 85/100 Batch 7/9 (77.78 %)                                                  Epoch 85/100 Batch 8/9 (88.89 %)                                                  Epoch 85/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 86/100 Batch 1/9 (11.11 %)                                                  Epoch 86/100 Batch 2/9 (22.22 %)                                                  Epoch 86/100 Batch 3/9 (33.33 %)                                                  Epoch 86/100 Batch 4/9 (44.44 %)                                                  Epoch 86/100 Batch 5/9 (55.56 %)                                                  Epoch 86/100 Batch 6/9 (66.67 %)                                                  Epoch 86/100 Batch 7/9 (77.78 %)                                                  Epoch 86/100 Batch 8/9 (88.89 %)                                                  Epoch 86/100 Batch 9/9 (100.00 %)
+testing... tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0, 0, 0, 0, 0, 0, 0]) target
+tensor([0, 0]) target
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Accuracy: 100.00 %, Loss: 0.0000
+                                                  Epoch 87/100 Batch 1/9 (11.11 %)                                                  Epoch 87/100 Batch 2/9 (22.22 %)                                                  Epoch 87/100 Batch 3/9 (33.33 %)                                                  Epoch 87/100 Batch 4/9 (44.44 %)                                                  Epoch 87/100 Batch 5/9 (55.56 %)                                                  Epoch 87/100 Batch 6/9 (66.67 %)slurmstepd: error: *** JOB 6240 ON n1596 CANCELLED AT 2019-08-13T11:33:41 ***

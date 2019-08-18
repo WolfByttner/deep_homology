@@ -1,0 +1,18 @@
+{'colour_mode': 'rgb', 'data_path': 'h5images/resampled_16x16_directions_32_histnorm', 'epochs': 100, 'momentum': 0.9, 'lr_start': 0.0005, 'lr_ep_step': 5, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 8, 'directions': 32, 'resampled_size': (16, 16), 'sat_key': '100_epoch_lr_00005_quick_lr_2_convs_dense_linear_one_layer_MaxPool4', 'cuda': False}
+Data setup...
+Loading providers
+ng TensorFlow backend.
+Merging providers
+Create data loader...
+Creating network
+['dim_0_dir_0_red', 'dim_0_dir_1_red', 'dim_0_dir_10_red', 'dim_0_dir_11_red', 'dim_0_dir_12_red', 'dim_0_dir_13_red', 'dim_0_dir_14_red', 'dim_0_dir_15_red', 'dim_0_dir_16_red', 'dim_0_dir_17_red', 'dim_0_dir_18_red', 'dim_0_dir_19_red', 'dim_0_dir_2_red', 'dim_0_dir_20_red', 'dim_0_dir_21_red', 'dim_0_dir_22_red', 'dim_0_dir_23_red', 'dim_0_dir_24_red', 'dim_0_dir_25_red', 'dim_0_dir_26_red', 'dim_0_dir_27_red', 'dim_0_dir_28_red', 'dim_0_dir_29_red', 'dim_0_dir_3_red', 'dim_0_dir_30_red', 'dim_0_dir_31_red', 'dim_0_dir_4_red', 'dim_0_dir_5_red', 'dim_0_dir_6_red', 'dim_0_dir_7_red', 'dim_0_dir_8_red', 'dim_0_dir_9_red', 'dim_0_dir_0_green', 'dim_0_dir_1_green', 'dim_0_dir_10_green', 'dim_0_dir_11_green', 'dim_0_dir_12_green', 'dim_0_dir_13_green', 'dim_0_dir_14_green', 'dim_0_dir_15_green', 'dim_0_dir_16_green', 'dim_0_dir_17_green', 'dim_0_dir_18_green', 'dim_0_dir_19_green', 'dim_0_dir_2_green', 'dim_0_dir_20_green', 'dim_0_dir_21_green', 'dim_0_dir_22_green', 'dim_0_dir_23_green', 'dim_0_dir_24_green', 'dim_0_dir_25_green', 'dim_0_dir_26_green', 'dim_0_dir_27_green', 'dim_0_dir_28_green', 'dim_0_dir_29_green', 'dim_0_dir_3_green', 'dim_0_dir_30_green', 'dim_0_dir_31_green', 'dim_0_dir_4_green', 'dim_0_dir_5_green', 'dim_0_dir_6_green', 'dim_0_dir_7_green', 'dim_0_dir_8_green', 'dim_0_dir_9_green', 'dim_0_dir_0_blue', 'dim_0_dir_1_blue', 'dim_0_dir_10_blue', 'dim_0_dir_11_blue', 'dim_0_dir_12_blue', 'dim_0_dir_13_blue', 'dim_0_dir_14_blue', 'dim_0_dir_15_blue', 'dim_0_dir_16_blue', 'dim_0_dir_17_blue', 'dim_0_dir_18_blue', 'dim_0_dir_19_blue', 'dim_0_dir_2_blue', 'dim_0_dir_20_blue', 'dim_0_dir_21_blue', 'dim_0_dir_22_blue', 'dim_0_dir_23_blue', 'dim_0_dir_24_blue', 'dim_0_dir_25_blue', 'dim_0_dir_26_blue', 'dim_0_dir_27_blue', 'dim_0_dir_28_blue', 'dim_0_dir_29_blue', 'dim_0_dir_3_blue', 'dim_0_dir_30_blue', 'dim_0_dir_31_blue', 'dim_0_dir_4_blue', 'dim_0_dir_5_blue', 'dim_0_dir_6_blue', 'dim_0_dir_7_blue', 'dim_0_dir_8_blue', 'dim_0_dir_9_blue']
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 425, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 383, in train_network
+    model = SLayerRgbNN(subscripted_views, parameters['directions'])
+  File "slayer_network_rgb.py", line 156, in __init__
+    linear_1.add_module('', nn.MaxPool1d(kernel_size=4))
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 188, in add_module
+    raise KeyError("module name can't be empty string \"\"")
+KeyError: 'module name can\'t be empty string ""'

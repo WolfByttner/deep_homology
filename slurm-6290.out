@@ -1,0 +1,4 @@
+  File "slayer_network_rgb.py", line 64
+    'cuda': False
+          ^
+SyntaxError: invalid syntax

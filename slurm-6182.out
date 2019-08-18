@@ -1,0 +1,4 @@
+  File "slayer_network_rgb.py", line 122
+    seq.add_module('conv_3', nn.Conv1d(n_filters//2, n_filters, , bias=False))
+                                                                ^
+SyntaxError: invalid syntax

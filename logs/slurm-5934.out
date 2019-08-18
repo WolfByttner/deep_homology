@@ -1,0 +1,677 @@
+/home/amahon/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 379, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 340, in train_network
+    trainer = setup_trainer(model, params, data_train, data_test)
+  File "slayer_network_rgb.py", line 301, in setup_trainer
+    variable_created_by_model=True)
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 63, in __init__
+    self.delve_stats = CheckLayerSat('runs', model)
+TypeError: __init__() missing 1 required positional argument: 'modules'
+cessing 9
+list indices must be integers or slices, not str
+Returning 9
+Processing 10
+list indices must be integers or slices, not str
+Returning 10
+Processing 11
+list indices must be integers or slices, not str
+Returning 11
+Processing 12
+list indices must be integers or slices, not str
+Returning 12
+Processing 13
+Processing 15
+list indices must be integers or slices, not str
+Returning 13list indices must be integers or slices, not str
+
+Returning 15
+Processing 14
+Processing 17
+list indices must be integers or slices, not str
+list indices must be integers or slices, not strReturning 14
+
+Returning 17
+Processing 18
+list indices must be integers or slices, not str
+Returning 18
+Processing 19
+Processing 16list indices must be integers or slices, not str
+
+Returning 19Processing 20
+
+list indices must be integers or slices, not str
+Returning 20
+list indices must be integers or slices, not str
+Processing 21Returning 16
+
+list indices must be integers or slices, not str
+Returning 21
+Processing 22
+list indices must be integers or slices, not str
+Processing 23Returning 22
+
+list indices must be integers or slices, not str
+Returning 23
+Processing 24
+list indices must be integers or slices, not str
+Returning 24
+Processing 25
+Processing 26list indices must be integers or slices, not str
+
+Returning 25
+list indices must be integers or slices, not str
+Returning 26
+Processing 27
+list indices must be integers or slices, not str
+Returning 27
+Processing 28
+Processing 29
+list indices must be integers or slices, not str
+Returning 28
+list indices must be integers or slices, not str
+Returning 29
+Processing 30
+list indices must be integers or slices, not str
+Returning 30
+Processing 31
+Processing 32
+list indices must be integers or slices, not str
+Returning 31list indices must be integers or slices, not str
+
+Returning 32
+Processing 33
+Processing 34list indices must be integers or slices, not str
+
+Returning 33
+list indices must be integers or slices, not str
+Returning 34
+Processing 35
+Processing 36list indices must be integers or slices, not str
+
+Returning 35
+list indices must be integers or slices, not str
+Returning 36
+Processing 37
+list indices must be integers or slices, not str
+Returning 37
+Processing 38
+list indices must be integers or slices, not str
+Returning 38
+Processing 40
+list indices must be integers or slices, not str
+Processing 41Returning 40
+
+Processing 42
+list indices must be integers or slices, not str
+Returning 41list indices must be integers or slices, not str
+
+Processing 43Processing 39Returning 42
+
+
+list indices must be integers or slices, not str
+Returning 43
+Processing 44
+list indices must be integers or slices, not strlist indices must be integers or slices, not str
+
+Processing 45Returning 39Returning 44
+
+
+Processing 46list indices must be integers or slices, not str
+
+Returning 45
+list indices must be integers or slices, not str
+Returning 46
+Processing 48
+Processing 49
+list indices must be integers or slices, not str
+Returning 48
+list indices must be integers or slices, not str
+Returning 49
+Processing 50
+Processing 47Processing 51list indices must be integers or slices, not str
+
+
+Returning 50Processing 52list indices must be integers or slices, not str
+
+
+Processing 53Returning 51
+
+list indices must be integers or slices, not str
+Returning 52list indices must be integers or slices, not str
+
+Returning 47
+Processing 54
+Processing 55Processing 56
+list indices must be integers or slices, not str
+
+Returning 54list indices must be integers or slices, not str
+list indices must be integers or slices, not str
+
+list indices must be integers or slices, not strReturning 55Returning 56
+
+Processing 57
+Returning 53
+
+Processing 58
+list indices must be integers or slices, not str
+Returning 57list indices must be integers or slices, not str
+
+Returning 58
+Processing 59
+list indices must be integers or slices, not str
+Returning 59
+Processing 60
+Processing 61list indices must be integers or slices, not str
+
+Returning 60
+list indices must be integers or slices, not str
+Returning 61
+Processing 62
+list indices must be integers or slices, not strProcessing 63
+
+Returning 62
+list indices must be integers or slices, not str
+Returning 63
+Processing 64Processing 65
+
+list indices must be integers or slices, not strlist indices must be integers or slices, not str
+Processing 66
+Returning 65
+
+Returning 64
+Processing 67
+list indices must be integers or slices, not str
+Processing 68Returning 66list indices must be integers or slices, not str
+
+Processing 69
+
+Returning 67list indices must be integers or slices, not str
+
+list indices must be integers or slices, not strReturning 68
+
+Returning 69
+Processing 70
+Processing 71
+list indices must be integers or slices, not str
+list indices must be integers or slices, not strReturning 70
+
+Returning 71
+Processing 72
+Processing 73list indices must be integers or slices, not str
+
+Returning 72list indices must be integers or slices, not str
+
+Returning 73
+Processing 74
+list indices must be integers or slices, not str
+Returning 74
+Processing 75Processing 76
+
+Processing 77
+list indices must be integers or slices, not strlist indices must be integers or slices, not strlist indices must be integers or slices, not str
+
+
+Returning 76Returning 77
+Returning 75
+
+Processing 78
+list indices must be integers or slices, not str
+Processing 79Returning 78Processing 80
+
+
+list indices must be integers or slices, not str
+list indices must be integers or slices, not strReturning 80
+
+Processing 81Returning 79
+
+list indices must be integers or slices, not strProcessing 82
+
+Returning 81
+list indices must be integers or slices, not str
+Returning 82
+Processing 83
+Processing 84
+list indices must be integers or slices, not str
+Returning 83Processing 85
+list indices must be integers or slices, not str
+
+Returning 84
+list indices must be integers or slices, not str
+Returning 85
+Processing 86
+Processing 87list indices must be integers or slices, not str
+
+Returning 86list indices must be integers or slices, not str
+Processing 88
+
+Processing 89Returning 87
+
+list indices must be integers or slices, not str
+Processing 90Returning 88list indices must be integers or slices, not str
+
+
+Returning 89
+list indices must be integers or slices, not str
+Returning 90
+Processing 91
+list indices must be integers or slices, not str
+Returning 91
+Processing 93
+Processing 92Processing 94list indices must be integers or slices, not str
+
+
+Returning 93
+Processing 95list indices must be integers or slices, not strlist indices must be integers or slices, not str
+
+
+Returning 94
+list indices must be integers or slices, not str
+Returning 92Returning 95
+
+Processing 96
+list indices must be integers or slices, not str
+Processing 97Returning 96
+
+list indices must be integers or slices, not str
+Returning 97
+Processing 98
+Processing 99
+list indices must be integers or slices, not strlist indices must be integers or slices, not str
+
+Returning 98Returning 99
+
+Processing 100Processing 101
+
+list indices must be integers or slices, not strlist indices must be integers or slices, not str
+
+Processing 102Returning 101Returning 100
+
+
+Processing 103
+list indices must be integers or slices, not str
+Processing 104list indices must be integers or slices, not strReturning 102
+
+
+Returning 103list indices must be integers or slices, not str
+
+Returning 104Processing 105
+
+Processing 106list indices must be integers or slices, not str
+
+Returning 105
+list indices must be integers or slices, not str
+Returning 106
+Processing 107
+list indices must be integers or slices, not str
+Returning 107Processing 108
+
+list indices must be integers or slices, not str
+Returning 108
+Processing 109
+list indices must be integers or slices, not str
+Returning 109
+Processing 110
+list indices must be integers or slices, not str
+Returning 110
+Processing 111
+list indices must be integers or slices, not strProcessing 112
+
+Returning 111Processing 113
+
+list indices must be integers or slices, not str
+Returning 112list indices must be integers or slices, not str
+
+Returning 113
+Processing 114
+list indices must be integers or slices, not str
+Returning 114
+Processing 115Processing 116
+
+Processing 117list indices must be integers or slices, not strlist indices must be integers or slices, not str
+
+
+Returning 115Returning 116
+list indices must be integers or slices, not str
+
+Returning 117
+Processing 118
+Processing 119list indices must be integers or slices, not str
+
+Returning 118
+list indices must be integers or slices, not str
+Returning 119
+Processing 120
+list indices must be integers or slices, not str
+Returning 120
+1 had error list indices must be integers or slices, not str
+9 had error list indices must be integers or slices, not str
+6 had error list indices must be integers or slices, not str
+4 had error list indices must be integers or slices, not str
+3 had error list indices must be integers or slices, not str
+5 had error list indices must be integers or slices, not str
+7 had error list indices must be integers or slices, not str
+2 had error list indices must be integers or slices, not str
+8 had error list indices must be integers or slices, not str
+15 had error list indices must be integers or slices, not str
+10 had error list indices must be integers or slices, not str
+17 had error list indices must be integers or slices, not str
+18 had error list indices must be integers or slices, not str
+19 had error list indices must be integers or slices, not str
+20 had error list indices must be integers or slices, not str
+21 had error list indices must be integers or slices, not str
+22 had error list indices must be integers or slices, not str
+23 had error list indices must be integers or slices, not str
+24 had error list indices must be integers or slices, not str
+25 had error list indices must be integers or slices, not str
+26 had error list indices must be integers or slices, not str
+27 had error list indices must be integers or slices, not str
+11 had error list indices must be integers or slices, not str
+28 had error list indices must be integers or slices, not str
+29 had error list indices must be integers or slices, not str
+12 had error list indices must be integers or slices, not str
+31 had error list indices must be integers or slices, not str
+34 had error list indices must be integers or slices, not str
+33 had error list indices must be integers or slices, not str
+13 had error list indices must be integers or slices, not str
+30 had error list indices must be integers or slices, not str
+14 had error list indices must be integers or slices, not str
+37 had error list indices must be integers or slices, not str
+35 had error list indices must be integers or slices, not str
+32 had error list indices must be integers or slices, not str
+16 had error list indices must be integers or slices, not str
+36 had error list indices must be integers or slices, not str
+38 had error list indices must be integers or slices, not str
+40 had error list indices must be integers or slices, not str
+42 had error list indices must be integers or slices, not str
+41 had error list indices must be integers or slices, not str
+43 had error list indices must be integers or slices, not str
+44 had error list indices must be integers or slices, not str
+45 had error list indices must be integers or slices, not str
+46 had error list indices must be integers or slices, not str
+48 had error list indices must be integers or slices, not str
+49 had error list indices must be integers or slices, not str
+50 had error list indices must be integers or slices, not str
+51 had error list indices must be integers or slices, not str
+55 had error list indices must be integers or slices, not str
+54 had error list indices must be integers or slices, not str
+52 had error list indices must be integers or slices, not str
+53 had error list indices must be integers or slices, not str
+56 had error list indices must be integers or slices, not str
+60 had error list indices must be integers or slices, not str
+61 had error list indices must be integers or slices, not str
+62 had error list indices must be integers or slices, not str
+63 had error list indices must be integers or slices, not str
+65 had error list indices must be integers or slices, not str
+64 had error list indices must be integers or slices, not str
+66 had error list indices must be integers or slices, not str
+39 had error list indices must be integers or slices, not str
+69 had error list indices must be integers or slices, not str
+72 had error list indices must be integers or slices, not str
+73 had error list indices must be integers or slices, not str
+70 had error list indices must be integers or slices, not str
+71 had error list indices must be integers or slices, not str
+77 had error list indices must be integers or slices, not str
+58 had error list indices must be integers or slices, not str
+59 had error list indices must be integers or slices, not str
+80 had error list indices must be integers or slices, not str
+74 had error list indices must be integers or slices, not str
+81 had error list indices must be integers or slices, not str
+82 had error list indices must be integers or slices, not str
+68 had error list indices must be integers or slices, not str
+75 had error list indices must be integers or slices, not str
+83 had error list indices must be integers or slices, not str
+85 had error list indices must be integers or slices, not str
+57 had error list indices must be integers or slices, not str
+86 had error list indices must be integers or slices, not str
+87 had error list indices must be integers or slices, not str
+88 had error list indices must be integers or slices, not str
+47 had error list indices must be integers or slices, not str
+93 had error list indices must be integers or slices, not str
+84 had error list indices must be integers or slices, not str
+92 had error list indices must be integers or slices, not str
+67 had error list indices must be integers or slices, not str
+79 had error list indices must be integers or slices, not str
+97 had error list indices must be integers or slices, not str
+91 had error list indices must be integers or slices, not str
+94 had error list indices must be integers or slices, not str
+95 had error list indices must be integers or slices, not str
+105 had error list indices must be integers or slices, not str
+107 had error list indices must be integers or slices, not str
+89 had error list indices must be integers or slices, not str
+90 had error list indices must be integers or slices, not str
+109 had error list indices must be integers or slices, not str
+99 had error list indices must be integers or slices, not str
+98 had error list indices must be integers or slices, not str
+113 had error list indices must be integers or slices, not str
+100 had error list indices must be integers or slices, not str
+103 had error list indices must be integers or slices, not str
+116 had error list indices must be integers or slices, not str
+104 had error list indices must be integers or slices, not str
+102 had error list indices must be integers or slices, not str
+106 had error list indices must be integers or slices, not str
+119 had error list indices must be integers or slices, not str
+108 had error list indices must be integers or slices, not str
+120 had error list indices must be integers or slices, not str
+110 had error list indices must be integers or slices, not str
+111 had error list indices must be integers or slices, not str
+112 had error list indices must be integers or slices, not str
+101 had error list indices must be integers or slices, not str
+114 had error list indices must be integers or slices, not str
+115 had error list indices must be integers or slices, not str
+117 had error list indices must be integers or slices, not str
+76 had error list indices must be integers or slices, not str
+118 had error list indices must be integers or slices, not str
+96 had error list indices must be integers or slices, not str
+78 had error list indices must be integers or slices, not str
+Writing 64 of 120 samples to disk
+Saving red
+dim_0_dir_0
+dim_1_dir_0
+dim_0_dir_1
+dim_1_dir_1
+dim_0_dir_2
+dim_1_dir_2
+dim_0_dir_3
+dim_1_dir_3
+dim_0_dir_4
+dim_1_dir_4
+dim_0_dir_5
+dim_1_dir_5
+dim_0_dir_6
+dim_1_dir_6
+dim_0_dir_7
+dim_1_dir_7
+dim_0_dir_8
+dim_1_dir_8
+dim_0_dir_9
+dim_1_dir_9
+dim_0_dir_10
+dim_1_dir_10
+dim_0_dir_11
+dim_1_dir_11
+dim_0_dir_12
+dim_1_dir_12
+dim_0_dir_13
+dim_1_dir_13
+dim_0_dir_14
+dim_1_dir_14
+dim_0_dir_15
+dim_1_dir_15
+dim_0_dir_16
+dim_1_dir_16
+dim_0_dir_17
+dim_1_dir_17
+dim_0_dir_18
+dim_1_dir_18
+dim_0_dir_19
+dim_1_dir_19
+dim_0_dir_20
+dim_1_dir_20
+dim_0_dir_21
+dim_1_dir_21
+dim_0_dir_22
+dim_1_dir_22
+dim_0_dir_23
+dim_1_dir_23
+dim_0_dir_24
+dim_1_dir_24
+dim_0_dir_25
+dim_1_dir_25
+dim_0_dir_26
+dim_1_dir_26
+dim_0_dir_27
+dim_1_dir_27
+dim_0_dir_28
+dim_1_dir_28
+dim_0_dir_29
+dim_1_dir_29
+dim_0_dir_30
+dim_1_dir_30
+dim_0_dir_31
+dim_1_dir_31
+Saving green
+dim_0_dir_0
+dim_1_dir_0
+dim_0_dir_1
+dim_1_dir_1
+dim_0_dir_2
+dim_1_dir_2
+dim_0_dir_3
+dim_1_dir_3
+dim_0_dir_4
+dim_1_dir_4
+dim_0_dir_5
+dim_1_dir_5
+dim_0_dir_6
+dim_1_dir_6
+dim_0_dir_7
+dim_1_dir_7
+dim_0_dir_8
+dim_1_dir_8
+dim_0_dir_9
+dim_1_dir_9
+dim_0_dir_10
+dim_1_dir_10
+dim_0_dir_11
+dim_1_dir_11
+dim_0_dir_12
+dim_1_dir_12
+dim_0_dir_13
+dim_1_dir_13
+dim_0_dir_14
+dim_1_dir_14
+dim_0_dir_15
+dim_1_dir_15
+dim_0_dir_16
+dim_1_dir_16
+dim_0_dir_17
+dim_1_dir_17
+dim_0_dir_18
+dim_1_dir_18
+dim_0_dir_19
+dim_1_dir_19
+dim_0_dir_20
+dim_1_dir_20
+dim_0_dir_21
+dim_1_dir_21
+dim_0_dir_22
+dim_1_dir_22
+dim_0_dir_23
+dim_1_dir_23
+dim_0_dir_24
+dim_1_dir_24
+dim_0_dir_25
+dim_1_dir_25
+dim_0_dir_26
+dim_1_dir_26
+dim_0_dir_27
+dim_1_dir_27
+dim_0_dir_28
+dim_1_dir_28
+dim_0_dir_29
+dim_1_dir_29
+dim_0_dir_30
+dim_1_dir_30
+dim_0_dir_31
+dim_1_dir_31
+Saving blue
+dim_0_dir_0
+dim_1_dir_0
+dim_0_dir_1
+dim_1_dir_1
+dim_0_dir_2
+dim_1_dir_2
+dim_0_dir_3
+dim_1_dir_3
+dim_0_dir_4
+dim_1_dir_4
+dim_0_dir_5
+dim_1_dir_5
+dim_0_dir_6
+dim_1_dir_6
+dim_0_dir_7
+dim_1_dir_7
+dim_0_dir_8
+dim_1_dir_8
+dim_0_dir_9
+dim_1_dir_9
+dim_0_dir_10
+dim_1_dir_10
+dim_0_dir_11
+dim_1_dir_11
+dim_0_dir_12
+dim_1_dir_12
+dim_0_dir_13
+dim_1_dir_13
+dim_0_dir_14
+dim_1_dir_14
+dim_0_dir_15
+dim_1_dir_15
+dim_0_dir_16
+dim_1_dir_16
+dim_0_dir_17
+dim_1_dir_17
+dim_0_dir_18
+dim_1_dir_18
+dim_0_dir_19
+dim_1_dir_19
+dim_0_dir_20
+dim_1_dir_20
+dim_0_dir_21
+dim_1_dir_21
+dim_0_dir_22
+dim_1_dir_22
+dim_0_dir_23
+dim_1_dir_23
+dim_0_dir_24
+dim_1_dir_24
+dim_0_dir_25
+dim_1_dir_25
+dim_0_dir_26
+dim_1_dir_26
+dim_0_dir_27
+dim_1_dir_27
+dim_0_dir_28
+dim_1_dir_28
+dim_0_dir_29
+dim_1_dir_29
+dim_0_dir_30
+dim_1_dir_30
+dim_0_dir_31
+dim_1_dir_31
+Data saved, Exiting.
+{'colour_mode': 'rgb', 'data_path': 'h5images_short/resampled_16x16_directions_32_histnorm', 'epochs': 300, 'momentum': 0.9, 'lr_start': 0.001, 'lr_ep_step': 20, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 128, 'directions': 32, 'resampled_size': (16, 16), 'cuda': False}
+Data setup...
+Loading providers
+Merging providers
+Create data loader...
+Creating network
+['dim_0_dir_0_red', 'dim_0_dir_1_red', 'dim_0_dir_10_red', 'dim_0_dir_11_red', 'dim_0_dir_12_red', 'dim_0_dir_13_red', 'dim_0_dir_14_red', 'dim_0_dir_15_red', 'dim_0_dir_16_red', 'dim_0_dir_17_red', 'dim_0_dir_18_red', 'dim_0_dir_19_red', 'dim_0_dir_2_red', 'dim_0_dir_20_red', 'dim_0_dir_21_red', 'dim_0_dir_22_red', 'dim_0_dir_23_red', 'dim_0_dir_24_red', 'dim_0_dir_25_red', 'dim_0_dir_26_red', 'dim_0_dir_27_red', 'dim_0_dir_28_red', 'dim_0_dir_29_red', 'dim_0_dir_3_red', 'dim_0_dir_30_red', 'dim_0_dir_31_red', 'dim_0_dir_4_red', 'dim_0_dir_5_red', 'dim_0_dir_6_red', 'dim_0_dir_7_red', 'dim_0_dir_8_red', 'dim_0_dir_9_red', 'dim_0_dir_0_green', 'dim_0_dir_1_green', 'dim_0_dir_10_green', 'dim_0_dir_11_green', 'dim_0_dir_12_green', 'dim_0_dir_13_green', 'dim_0_dir_14_green', 'dim_0_dir_15_green', 'dim_0_dir_16_green', 'dim_0_dir_17_green', 'dim_0_dir_18_green', 'dim_0_dir_19_green', 'dim_0_dir_2_green', 'dim_0_dir_20_green', 'dim_0_dir_21_green', 'dim_0_dir_22_green', 'dim_0_dir_23_green', 'dim_0_dir_24_green', 'dim_0_dir_25_green', 'dim_0_dir_26_green', 'dim_0_dir_27_green', 'dim_0_dir_28_green', 'dim_0_dir_29_green', 'dim_0_dir_3_green', 'dim_0_dir_30_green', 'dim_0_dir_31_green', 'dim_0_dir_4_green', 'dim_0_dir_5_green', 'dim_0_dir_6_green', 'dim_0_dir_7_green', 'dim_0_dir_8_green', 'dim_0_dir_9_green', 'dim_0_dir_0_blue', 'dim_0_dir_1_blue', 'dim_0_dir_10_blue', 'dim_0_dir_11_blue', 'dim_0_dir_12_blue', 'dim_0_dir_13_blue', 'dim_0_dir_14_blue', 'dim_0_dir_15_blue', 'dim_0_dir_16_blue', 'dim_0_dir_17_blue', 'dim_0_dir_18_blue', 'dim_0_dir_19_blue', 'dim_0_dir_2_blue', 'dim_0_dir_20_blue', 'dim_0_dir_21_blue', 'dim_0_dir_22_blue', 'dim_0_dir_23_blue', 'dim_0_dir_24_blue', 'dim_0_dir_25_blue', 'dim_0_dir_26_blue', 'dim_0_dir_27_blue', 'dim_0_dir_28_blue', 'dim_0_dir_29_blue', 'dim_0_dir_3_blue', 'dim_0_dir_30_blue', 'dim_0_dir_31_blue', 'dim_0_dir_4_blue', 'dim_0_dir_5_blue', 'dim_0_dir_6_blue', 'dim_0_dir_7_blue', 'dim_0_dir_8_blue', 'dim_0_dir_9_blue']
+Creating trainer

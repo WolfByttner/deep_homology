@@ -1,0 +1,27 @@
+{'colour_mode': 'rgb', 'data_path': 'h5images_short/resampled_16x16_directions_32_histnorm', 'epochs': 100, 'momentum': 0.9, 'lr_start': 0.05, 'lr_ep_step': 1, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 8, 'directions': 32, 'resampled_size': (16, 16), 'sat_key': 'tmp.csv', 'cuda': False}
+Data setup...
+Loading providers
+Merging providers
+Create data loader...
+Creating network
+['dim_0_dir_0_red', 'dTraceback (most recent call last):
+  File "slayer_network_rgb.py", line 436, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 401, in train_network
+    trainer.run()
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 92, in run
+    self._train_epoch()
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 129, in _train_epoch
+    self.optimizer.step(closure)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/optim/sgd.py", line 80, in step
+    loss = closure()
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 118, in closure
+    batch_output = self.model(batch_input)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "slayer_network_rgb.py", line 224, in forward
+    print(x.shape())
+TypeError: 'torch.Size' object is not callable
+_29_green', 'dim_0_dir_3_green', 'dim_0_dir_30_green', 'dim_0_dir_31_green', 'dim_0_dir_4_green', 'dim_0_dir_5_green', 'dim_0_dir_6_green', 'dim_0_dir_7_green', 'dim_0_dir_8_green', 'dim_0_dir_9_green', 'dim_0_dir_0_blue', 'dim_0_dir_1_blue', 'dim_0_dir_10_blue', 'dim_0_dir_11_blue', 'dim_0_dir_12_blue', 'dim_0_dir_13_blue', 'dim_0_dir_14_blue', 'dim_0_dir_15_blue', 'dim_0_dir_16_blue', 'dim_0_dir_17_blue', 'dim_0_dir_18_blue', 'dim_0_dir_19_blue', 'dim_0_dir_2_blue', 'dim_0_dir_20_blue', 'dim_0_dir_21_blue', 'dim_0_dir_22_blue', 'dim_0_dir_23_blue', 'dim_0_dir_24_blue', 'dim_0_dir_25_blue', 'dim_0_dir_26_blue', 'dim_0_dir_27_blue', 'dim_0_dir_28_blue', 'dim_0_dir_29_blue', 'dim_0_dir_3_blue', 'dim_0_dir_30_blue', 'dim_0_dir_31_blue', 'dim_0_dir_4_blue', 'dim_0_dir_5_blue', 'dim_0_dir_6_blue', 'dim_0_dir_7_blue', 'dim_0_dir_8_blue', 'dim_0_dir_9_blue']
+Creating trainer
+Running training

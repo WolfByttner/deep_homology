@@ -1,0 +1,12 @@
+/home/amahon/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 35, in <module>
+    from chofer_nips2017.src.sharedCode.experiments import \
+  File "/home/amahon/deep_homology/chofer_nips2017/src/sharedCode/experiments.py", line 15, in <module>
+    from chofer_torchex.nn import SLayerExponential as SLayer
+ModuleNotFoundError: No module named 'chofer_torchex'

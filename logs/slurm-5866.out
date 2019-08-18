@@ -1,0 +1,4 @@
+  File "slayer_network_rgb.py", line 127
+    500))
+        ^
+SyntaxError: invalid syntax

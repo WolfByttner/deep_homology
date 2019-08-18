@@ -1,0 +1,17 @@
+{'colour_mode': 'grayscale', 'data_path': 'h5images/resampled_16x16_directions_32_histnorm', 'epochs': 30, 'momentum': 0.2, 'lr_start': 0.1, 'lr_ep_step': 20, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 128, 'directions': 32, 'resampled_size': (16, 16), 'cuda': False}
+Data setup...
+Loading providers
+_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+Create data loader...
+Creating network
+['dim_0_dir_0', 'dim_0_dir_1', 'dim_0_dir_10', 'dim_0_dir_11', 'dim_0_dir_12', 'dim_0_dir_13', 'dim_0_dir_14', 'dim_0_dir_15', 'dim_0_dir_16', 'dim_0_dir_17', 'dim_0_dir_18', 'dim_0_dir_19', 'dim_0_dir_2', 'dim_0_dir_20', 'dim_0_dir_21', 'dim_0_dir_22', 'dim_0_dir_23', 'dim_0_dir_24', 'dim_0_dir_25', 'dim_0_dir_26', 'dim_0_dir_27', 'dim_0_dir_28', 'dim_0_dir_29', 'dim_0_dir_3', 'dim_0_dir_30', 'dim_0_dir_31', 'dim_0_dir_4', 'dim_0_dir_5', 'dim_0_dir_6', 'dim_0_dir_7', 'dim_0_dir_8', 'dim_0_dir_9']
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 340, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 298, in train_network
+    model = SLayerRgbNN(subscripted_views, parameters['directions'])
+  File "slayer_network_rgb.py", line 125, in __init__
+    linear_3.add_module('linear', 500, 500)
+TypeError: add_module() takes 3 positional arguments but 4 were given

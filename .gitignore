@@ -1,0 +1,6 @@
+Data/
+Deps/
+__pycache__/
+*.pyc
+*.swp
+h5images/

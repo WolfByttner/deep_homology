@@ -1,0 +1,10 @@
+/home/amahon/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 368, in <module>
+    do_stuff(params['directions'], params['resampled_size'],
+NameError: name 'do_stuff' is not defined

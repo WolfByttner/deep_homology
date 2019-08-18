@@ -1,0 +1,21 @@
+{'colour_mode': 'rgb', 'data_path': 'h5images_short/resampled_16x16_directions_32_histnorm', 'epochs': 100, 'momentum': 0.9, 'lr_start': 0.0005, 'lr_ep_step': 5, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 8, 'directions': 32, 'resampled_size': (16, 16), 'sat_key': '100_epoch_lr_00005_quick_lr_2_convs_dense_linear_one_layer_AdaptiveMaxPool300_inplace_conv_shore', 'cuda': False}
+Data setup...
+LoadinTraceback (most recent call last):
+  File "slayer_network_rgb.py", line 432, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 397, in train_network
+    trainer.run()
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 93, in run
+    self.events.post_epoch(self._get_default_event_kwargs(), trainer=self)
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 18, in __call__
+    callback(**kwargs)
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/plugins/scores.py", line 58, in post_epoch_handler
+    self.losses[epoch_count] = log_loss(target_list, predictions_list)
+  File "/home/amahon/.local/lib/python3.7/site-packages/sklearn/metrics/classification.py", line 1777, in log_loss
+    'labels argument.'.format(lb.classes_[0]))
+ValueError: y_true contains only one label (0). Please provide the true labels explicitly through the labels argument.
+_0_dir_24_green', 'dim_0_dir_25_green', 'dim_0_dir_26_green', 'dim_0_dir_27_green', 'dim_0_dir_28_green', 'dim_0_dir_29_green', 'dim_0_dir_3_green', 'dim_0_dir_30_green', 'dim_0_dir_31_green', 'dim_0_dir_4_green', 'dim_0_dir_5_green', 'dim_0_dir_6_green', 'dim_0_dir_7_green', 'dim_0_dir_8_green', 'dim_0_dir_9_green', 'dim_0_dir_0_blue', 'dim_0_dir_1_blue', 'dim_0_dir_10_blue', 'dim_0_dir_11_blue', 'dim_0_dir_12_blue', 'dim_0_dir_13_blue', 'dim_0_dir_14_blue', 'dim_0_dir_15_blue', 'dim_0_dir_16_blue', 'dim_0_dir_17_blue', 'dim_0_dir_18_blue', 'dim_0_dir_19_blue', 'dim_0_dir_2_blue', 'dim_0_dir_20_blue', 'dim_0_dir_21_blue', 'dim_0_dir_22_blue', 'dim_0_dir_23_blue', 'dim_0_dir_24_blue', 'dim_0_dir_25_blue', 'dim_0_dir_26_blue', 'dim_0_dir_27_blue', 'dim_0_dir_28_blue', 'dim_0_dir_29_blue', 'dim_0_dir_3_blue', 'dim_0_dir_30_blue', 'dim_0_dir_31_blue', 'dim_0_dir_4_blue', 'dim_0_dir_5_blue', 'dim_0_dir_6_blue', 'dim_0_dir_7_blue', 'dim_0_dir_8_blue', 'dim_0_dir_9_blue']
+Creating trainer
+Running training
+                                                  Epoch 1/100 Batch 1/9 (11.11 %)                                                  Epoch 1/100 Batch 2/9 (22.22 %)                                                  Epoch 1/100 Batch 3/9 (33.33 %)                                                  Epoch 1/100 Batch 4/9 (44.44 %)                                                  Epoch 1/100 Batch 5/9 (55.56 %)                                                  Epoch 1/100 Batch 6/9 (66.67 %)                                                  Epoch 1/100 Batch 7/9 (77.78 %)                                                  Epoch 1/100 Batch 8/9 (88.89 %)                                                  Epoch 1/100 Batch 9/9 (100.00 %)
+testing... 

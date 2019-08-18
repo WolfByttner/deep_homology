@@ -1,0 +1,16 @@
+/home/amahon/research/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 46, in <module>
+    from chofer_torchex.utils.trainer.plugins import *
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/plugins/__init__.py", line 2, in <module>
+    from .scores import PredictionMonitor, LossMonitor
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/plugins/scores.py", line 78
+    def loss(self)
+                 ^
+SyntaxError: invalid syntax

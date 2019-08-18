@@ -1,0 +1,31 @@
+/home/amahon/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+{'colour_mode': 'rgb', 'data_path': 'h5images/resampled_16x16_directions_32_histnorm', 'epochs': 300, 'momentum': 0.9, 'lr_start': 0.1, 'lr_ep_step': 20, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 128, 'directions': 32, 'resampled_size': (16, 16), 'cuda': False}
+Data setup...
+Loading providers
+Merging providers
+Create data loader...
+Creating network
+['dim_0_dir_0_red', 'dim_0_dir_1_red', 'dim_0_dir_10_red', 'dim_0_dir_11_red', 'dim_0_dir_12_red', 'dim_0_dir_13_red', 'dim_0_dir_14_red', 'dim_0_dir_15_red', 'dim_0_dir_16_red', 'dim_0_dir_17_red', 'dim_0_dir_18_red', 'dim_0_dir_19_red', 'dim_0_dir_2_red', 'dim_0_dir_20_red', 'dim_0_dir_21_red', 'dim_0_dir_22_red', 'dim_0_dir_23_red', 'dim_0_dir_24_red', 'dim_0_dir_25_red', 'dim_0_dir_26_red', 'dim_0_dir_27_red', 'dim_0_dir_28_red', 'dim_0_dir_29_red', 'dim_0_dir_3_red', 'dim_0_dir_30_red', 'dim_0_dir_31_red', 'dim_0_dir_4_red', 'dim_0_dir_5_red', 'dim_0_dir_6_red', 'dim_0_dir_7_red', 'dim_0_dir_8_red', 'dim_0_dir_9_red', 'dim_0_dir_0_green', 'dim_0_dir_1_green', 'dim_0_dir_10_green', 'dim_0_dir_11_green', 'dim_0_dir_12_green', 'dim_0_dir_13_green', 'dim_0_dir_14_green', 'dim_0_dir_15_green', 'dim_0_dir_16_green', 'dim_0_dir_17_green', 'dim_0_dir_18_green', 'dim_0_dir_19_green', 'dim_0_dir_2_green', 'dim_0_dir_20_green', 'dim_0_dir_21_green', 'dim_0_dir_22_green', 'dim_0_dir_23_green', 'dim_0_dir_24_green', 'dim_0_dir_25_green', 'dim_0_dir_26_green', 'dim_0_dir_27_green', 'dim_0_dir_28_green', 'dim_0_dir_29_green', 'dim_0_dir_3_green', 'dim_0_dir_30_green', 'dim_0_dir_31_green', 'dim_0_dir_4_green', 'dim_0_dir_5_green', 'dim_0_dir_6_green', 'dim_0_dir_7_green', 'dim_0_dir_8_green', 'dim_0_dir_9_green', 'dim_0_dir_0_blue', 'dim_0_dir_1_blue', 'dim_0_dir_10_blue', 'dim_0_dir_11_blue', 'dim_0_dir_12_blue', 'dim_0_dir_13_blue', 'dim_0_dir_14_blue', 'dim_0_dir_15_blue', 'dim_0_dir_16_blue', 'dim_0_dir_17_blue', 'dim_0_dir_18_blue', 'dim_0_dir_19_blue', 'dim_0_dir_2_blue', 'dim_0_dir_20_blue', 'dim_0_dir_21_blue', 'dim_0_dir_22_blue', 'dim_0_dir_23_blue', 'dim_0_dir_24_blue', 'dim_0_dir_25_blue', 'dim_0_dir_26_blue', 'dim_0_dir_27_blue', 'dim_0_dir_28_blue', 'dim_0_dir_29_blue', 'dim_0_dir_3_blue', 'dim_0_dir_30_blue', 'dim_0_dir_31_blue', 'dim_0_dir_4_blue', 'dim_0_dir_5_blue', 'dim_0_dir_6_blue', 'dim_0_dir_7_blue', 'dim_0_dir_8_blue', 'dim_0_dir_9_blue']
+Creating trainer
+Running training
+/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/container.py:92: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+                                                  Epoch 1/300 Batch 1/21 (4.76 %)                                                  Epoch 1/300 Batch 2/21 (9.52 %)                                                  Epoch 1/300 Batch 3/21 (14.29 %)                                                  Epoch 1/300 Batch 4/21 (19.05 %)                                                  Epoch 1/300 Batch 5/21 (23.81 %)                                                  Epoch 1/300 Batch 6/21 (28.57 %)                                                  Epoch 1/300 Batch 7/21 (33.33 %)                                                  Epoch 1/300 Batch 8/21 (38.10 %)                                                  Epoch 1/300 Batch 9/21 (42.86 %)                                                  Epoch 1/300 Batch 10/21 (47.62 %)                                                  Epoch 1/300 Batch 11/21 (52.38 %)                                                  Epoch 1/300 Batch 12/21 (57.14 %)                                                  Epoch 1/300 Batch 13/21 (61.90 %)                                                  Epoch 1/300 Batch 14/21 (66.67 %)                                                  Epoch 1/300 Batch 15/21 (71.43 %)                                                  Epoch 1/300 Batch 16/21 (76.19 %)                                                  Epoch 1/300 Batch 17/21 (80.95 %)                                                  Epoch 1/300 Batch 18/21 (85.71 %)                                                  Epoch 1/300 Batch 19/21 (90.48 %)                                                  Epoch 1/300 Batch 20/21 (95.24 %)                                                  Epoch 1/300 Batch 21/21 (100.00 %)Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 379, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 344, in train_network
+    trainer.run()
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 94, in run
+    self.events.post_epoch(post_epoch_payload, trainer=self)
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 19, in __call__
+    callback(**kwargs)
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/plugins/progress.py", line 46, in post_epoch_handler
+    self.post_batch_handler(**new_kwargs)
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/plugins/progress.py", line 32, in post_batch_handler
+    current_batch_number = kwargs['current_batch_number']
+KeyError: 'current_batch_number'

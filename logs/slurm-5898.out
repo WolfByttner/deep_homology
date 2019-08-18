@@ -1,0 +1,44 @@
+/home/amahon/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+{'colour_mode': 'grayscale', 'data_path': 'h5images/resampled_16x16_directions_32_histnorm', 'epochs': 300, 'momentum': 0.7, 'lr_start': 0.1, 'lr_ep_step': 20, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 128, 'directions': 32, 'resampled_size': (16, 16), 'cuda': False}
+Data setup...
+Loading providers
+Create data loader...
+Creating network
+['dim_0_dir_0', 'dim_0_dir_1', 'dim_0_dir_10', 'dim_0_dir_11', 'dim_0_dir_12', 'dim_0_dir_13', 'dim_0_dir_14', 'dim_0_dir_15', 'dim_0_dir_16', 'dim_0_dir_17', 'dim_0_dir_18', 'dim_0_dir_19', 'dim_0_dir_2', 'dim_0_dir_20', 'dim_0_dir_21', 'dim_0_dir_22', 'dim_0_dir_23', 'dim_0_dir_24', 'dim_0_dir_25', 'dim_0_dir_26', 'dim_0_dir_27', 'dim_0_dir_28', 'dim_0_dir_29', 'dim_0_dir_3', 'dim_0_dir_30', 'dim_0_dir_31', 'dim_0_dir_4', 'dim_0_dir_5', 'dim_0_dir_6', 'dim_0_dir_7', 'dim_0_dir_8', 'dim_0_dir_9']
+Creating trainer
+Running training
+/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/container.py:92: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 359, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 324, in train_network
+    trainer.run()
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 91, in run
+    self._train_epoch()
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 127, in _train_epoch
+    self.optimizer.step(closure)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/optim/sgd.py", line 80, in step
+    loss = closure()
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 115, in closure
+    batch_output = self.model(batch_input)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "slayer_network_rgb.py", line 171, in forward
+    x = self.linear_3(x)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/container.py", line 92, in forward
+    input = module(input)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 92, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/functional.py", line 1406, in linear
+    ret = torch.addmm(bias, input, weight.t())
+RuntimeError: size mismatch, m1: [128 x 2000], m2: [500 x 500] at /pytorch/aten/src/TH/generic/THTensorMath.cpp:961

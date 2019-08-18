@@ -1,0 +1,31 @@
+/home/amahon/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+{'colour_mode': 'rgb', 'data_path': 'h5images/resampled_16x16_directions_32_histnorm', 'epochs': 300, 'momentum': 0.9, 'lr_start': 0.1, 'lr_ep_step': 20, 'lr_adaption': 0.5, 'test_ratio': 0.1, 'batch_size': 128, 'directions': 32, 'resampled_size': (16, 16), 'cuda': False}
+Data setup...
+Loading providers
+Merging providers
+Create data loader...
+Creating network
+['dim_0_dir_0_red', 'dim_0_dir_1_red', 'dim_0_dir_10_red', 'dim_0_dir_11_red', 'dim_0_dir_12_red', 'dim_0_dir_13_red', 'dim_0_dir_14_red', 'dim_0_dir_15_red', 'dim_0_dir_16_red', 'dim_0_dir_17_red', 'dim_0_dir_18_red', 'dim_0_dir_19_red', 'dim_0_dir_2_red', 'dim_0_dir_20_red', 'dim_0_dir_21_red', 'dim_0_dir_22_red', 'dim_0_dir_23_red', 'dim_0_dir_24_red', 'dim_0_dir_25_red', 'dim_0_dir_26_red', 'dim_0_dir_27_red', 'dim_0_dir_28_red', 'dim_0_dir_29_red', 'dim_0_dir_3_red', 'dim_0_dir_30_red', 'dim_0_dir_31_red', 'dim_0_dir_4_red', 'dim_0_dir_5_red', 'dim_0_dir_6_red', 'dim_0_dir_7_red', 'dim_0_dir_8_red', 'dim_0_dir_9_red', 'dim_0_dir_0_green', 'dim_0_dir_1_green', 'dim_0_dir_10_green', 'dim_0_dir_11_green', 'dim_0_dir_12_green', 'dim_0_dir_13_green', 'dim_0_dir_14_green', 'dim_0_dir_15_green', 'dim_0_dir_16_green', 'dim_0_dir_17_green', 'dim_0_dir_18_green', 'dim_0_dir_19_green', 'dim_0_dir_2_green', 'dim_0_dir_20_green', 'dim_0_dir_21_green', 'dim_0_dir_22_green', 'dim_0_dir_23_green', 'dim_0_dir_24_green', 'dim_0_dir_25_green', 'dim_0_dir_26_green', 'dim_0_dir_27_green', 'dim_0_dir_28_green', 'dim_0_dir_29_green', 'dim_0_dir_3_green', 'dim_0_dir_30_green', 'dim_0_dir_31_green', 'dim_0_dir_4_green', 'dim_0_dir_5_green', 'dim_0_dir_6_green', 'dim_0_dir_7_green', 'dim_0_dir_8_green', 'dim_0_dir_9_green', 'dim_0_dir_0_blue', 'dim_0_dir_1_blue', 'dim_0_dir_10_blue', 'dim_0_dir_11_blue', 'dim_0_dir_12_blue', 'dim_0_dir_13_blue', 'dim_0_dir_14_blue', 'dim_0_dir_15_blue', 'dim_0_dir_16_blue', 'dim_0_dir_17_blue', 'dim_0_dir_18_blue', 'dim_0_dir_19_blue', 'dim_0_dir_2_blue', 'dim_0_dir_20_blue', 'dim_0_dir_21_blue', 'dim_0_dir_22_blue', 'dim_0_dir_23_blue', 'dim_0_dir_24_blue', 'dim_0_dir_25_blue', 'dim_0_dir_26_blue', 'dim_0_dir_27_blue', 'dim_0_dir_28_blue', 'dim_0_dir_29_blue', 'dim_0_dir_3_blue', 'dim_0_dir_30_blue', 'dim_0_dir_31_blue', 'dim_0_dir_4_blue', 'dim_0_dir_5_blue', 'dim_0_dir_6_blue', 'dim_0_dir_7_blue', 'dim_0_dir_8_blue', 'dim_0_dir_9_blue']
+Creating trainer
+Running training
+/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/container.py:92: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 379, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 344, in train_network
+    trainer.run()
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 91, in run
+    accumulated_loss = self._train_epoch()
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 135, in _train_epoch
+    current_batch_number=i)
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 19, in __call__
+    callback(**kwargs)
+  File "/home/amahon/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/plugins/progress.py", line 29, in post_batch_handler
+    loss = kwargs['loss']
+KeyError: 'loss'

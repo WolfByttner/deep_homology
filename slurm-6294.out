@@ -1,0 +1,124 @@
+/home/amahon/research/deep_homology/chofer_nips2017/tda-toolkit/pershombox/_software_backends/resource_handler.py:91: UserWarning: The following backends are not properly configured
+hera_wasserstein_dist
+Using stuff dependent on those backends will cause runtime errors.
+You can get all errors by calling pershombox.get_backend_cfg_errors().
+
+  warnings.warn(error_text, UserWarning)
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "slayer_network_rgb.py", line 437, in <module>
+    mean = train_network(params)
+  File "slayer_network_rgb.py", line 402, in train_network
+    trainer.run()
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 92, in run
+    self._train_epoch()
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 129, in _train_epoch
+    self.optimizer.step(closure)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/optim/sgd.py", line 80, in step
+    loss = closure()
+  File "/home/amahon/research/deep_homology/chofer_nips2017/chofer_torchex/chofer_torchex/utils/trainer/trainer.py", line 118, in closure
+    batch_output = self.model(batch_input)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "slayer_network_rgb.py", line 227, in forward
+    x = [l(xx) for l, xx in zip(self.stage_1, x)]
+  File "slayer_network_rgb.py", line 227, in <listcomp>
+    x = [l(xx) for l, xx in zip(self.stage_1, x)]
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/container.py", line 92, in forward
+    input = module(input)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/amahon/.local/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 196, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Expected 3-dimensional input for 3-dimensional weight 16 3, but got 2-dimensional input of size [288, 75] instead
+im_0_dir_17_blue', 'dim_0_dir_18_blue', 'dim_0_dir_19_blue', 'dim_0_dir_2_blue', 'dim_0_dir_20_blue', 'dim_0_dir_21_blue', 'dim_0_dir_22_blue', 'dim_0_dir_23_blue', 'dim_0_dir_24_blue', 'dim_0_dir_25_blue', 'dim_0_dir_26_blue', 'dim_0_dir_27_blue', 'dim_0_dir_28_blue', 'dim_0_dir_29_blue', 'dim_0_dir_3_blue', 'dim_0_dir_30_blue', 'dim_0_dir_31_blue', 'dim_0_dir_4_blue', 'dim_0_dir_5_blue', 'dim_0_dir_6_blue', 'dim_0_dir_7_blue', 'dim_0_dir_8_blue', 'dim_0_dir_9_blue']
+Creating trainer
+Running training
+tensor([[[3.0107e-04, 5.1554e-23, 3.3832e-01,  ..., 6.3879e-04,
+          4.9691e-01, 7.1816e-03],
+         [2.8368e-05, 3.8378e-24, 1.2675e-01,  ..., 6.7493e-04,
+          4.4738e-01, 1.0565e-03],
+         [6.3071e-04, 1.5974e+00, 4.5036e-01,  ..., 3.9752e-04,
+          4.2320e-01, 1.3906e-02],
+         ...,
+         [2.8368e-05, 3.8378e-24, 1.2675e-01,  ..., 6.7493e-04,
+          4.4738e-01, 1.0565e-03],
+         [6.8774e-05, 5.8089e-22, 1.4844e-01,  ..., 3.9700e-03,
+          7.4655e-01, 1.4297e-03],
+         [3.0107e-04, 5.1554e-23, 3.3832e-01,  ..., 6.3879e-04,
+          4.9691e-01, 7.1816e-03]],
+
+        [[3.0107e-04, 5.1554e-23, 3.3832e-01,  ..., 6.3879e-04,
+          4.9691e-01, 7.1816e-03],
+         [2.8368e-05, 3.8378e-24, 1.2675e-01,  ..., 6.7493e-04,
+          4.4738e-01, 1.0565e-03],
+         [6.3071e-04, 1.5974e+00, 4.5036e-01,  ..., 3.9752e-04,
+          4.2320e-01, 1.3906e-02],
+         ...,
+         [2.8368e-05, 3.8378e-24, 1.2675e-01,  ..., 6.7493e-04,
+          4.4738e-01, 1.0565e-03],
+         [6.8774e-05, 5.8089e-22, 1.4844e-01,  ..., 3.9700e-03,
+          7.4655e-01, 1.4297e-03],
+         [3.0107e-04, 5.1554e-23, 3.3832e-01,  ..., 6.3879e-04,
+          4.9691e-01, 7.1816e-03]],
+
+        [[1.0706e-03, 2.4013e-22, 5.2283e-01,  ..., 5.6549e-04,
+          4.6422e-01, 1.9300e-02],
+         [8.4800e-03, 3.3794e-06, 6.6397e-01,  ..., 3.6465e-02,
+          5.7208e-01, 5.1919e-02],
+         [2.1381e-04, 3.0764e-24, 3.1484e-01,  ..., 1.9659e-04,
+          3.3475e-01, 6.8728e-03],
+         ...,
+         [8.4800e-03, 3.3794e-06, 6.6397e-01,  ..., 3.6465e-02,
+          5.7208e-01, 5.1919e-02],
+         [7.7927e-03, 4.6721e-19, 6.6683e-01,  ..., 3.3730e-03,
+          5.7505e-01, 5.0576e-02],
+         [1.0706e-03, 2.4013e-22, 5.2283e-01,  ..., 5.6549e-04,
+          4.6422e-01, 1.9300e-02]],
+
+        ...,
+
+        [[1.0706e-03, 2.4013e-22, 5.2283e-01,  ..., 5.6549e-04,
+          4.6422e-01, 1.9300e-02],
+         [8.4800e-03, 3.3794e-06, 6.6397e-01,  ..., 3.6465e-02,
+          5.7208e-01, 5.1919e-02],
+         [2.1381e-04, 3.0764e-24, 3.1484e-01,  ..., 1.9659e-04,
+          3.3475e-01, 6.8728e-03],
+         ...,
+         [8.4800e-03, 3.3794e-06, 6.6397e-01,  ..., 3.6465e-02,
+          5.7208e-01, 5.1919e-02],
+         [7.7927e-03, 4.6721e-19, 6.6683e-01,  ..., 3.3730e-03,
+          5.7505e-01, 5.0576e-02],
+         [1.0706e-03, 2.4013e-22, 5.2283e-01,  ..., 5.6549e-04,
+          4.6422e-01, 1.9300e-02]],
+
+        [[1.0706e-03, 2.4013e-22, 5.2283e-01,  ..., 5.6549e-04,
+          4.6422e-01, 1.9300e-02],
+         [8.4800e-03, 3.3794e-06, 6.6397e-01,  ..., 3.6465e-02,
+          5.7208e-01, 5.1919e-02],
+         [2.1381e-04, 3.0764e-24, 3.1484e-01,  ..., 1.9659e-04,
+          3.3475e-01, 6.8728e-03],
+         ...,
+         [8.4800e-03, 3.3794e-06, 6.6397e-01,  ..., 3.6465e-02,
+          5.7208e-01, 5.1919e-02],
+         [7.7927e-03, 4.6721e-19, 6.6683e-01,  ..., 3.3730e-03,
+          5.7505e-01, 5.0576e-02],
+         [1.0706e-03, 2.4013e-22, 5.2283e-01,  ..., 5.6549e-04,
+          4.6422e-01, 1.9300e-02]],
+
+        [[3.0107e-04, 5.1554e-23, 3.3832e-01,  ..., 6.3879e-04,
+          4.9691e-01, 7.1816e-03],
+         [2.8368e-05, 3.8378e-24, 1.2675e-01,  ..., 6.7493e-04,
+          4.4738e-01, 1.0565e-03],
+         [6.3071e-04, 1.5974e+00, 4.5036e-01,  ..., 3.9752e-04,
+          4.2320e-01, 1.3906e-02],
+         ...,
+         [2.8368e-05, 3.8378e-24, 1.2675e-01,  ..., 6.7493e-04,
+          4.4738e-01, 1.0565e-03],
+         [6.8774e-05, 5.8089e-22, 1.4844e-01,  ..., 3.9700e-03,
+          7.4655e-01, 1.4297e-03],
+         [3.0107e-04, 5.1554e-23, 3.3832e-01,  ..., 6.3879e-04,
+          4.9691e-01, 7.1816e-03]]], grad_fn=<CatBackward>)
+torch.Size([8, 288, 75])
